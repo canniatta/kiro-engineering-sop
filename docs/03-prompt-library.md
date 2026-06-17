@@ -73,6 +73,18 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   ```
 * **Contoh Penggunaan:** `Buatkan Software Requirement Specification untuk fitur Single Tarif Kesepakatan.`
 
+### Prompt 1.5: Architectural Refactoring Plan
+* **Kapan digunakan:** Menyusun rencana migrasi dan menulis ulang proyek lama agar menggunakan standar arsitektur modern (Clean Architecture, CQRS, MediatR, Repository Pattern).
+* **Prompt Text:**
+  ```text
+  Refactor project ini menjadi:
+
+  - Clean Architecture
+  - CQRS
+  - MediatR
+  - Repository Pattern
+  ```
+
 ---
 
 ## 2. .NET 8 Backend Development Prompts
@@ -120,6 +132,14 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   - FluentValidation
 
   Sediakan struktur folder yang diusulkan dan kode lengkap yang siap pakai.
+  ```
+
+### Prompt 2.4: Code Decomposition (Service Splitting)
+* **Kapan digunakan:** Memecah kelas/service C# yang terlalu besar (melebihi batas maksimal 500 baris kode sesuai checklist G-50) menjadi service-service kecil yang lebih modular.
+* **Prompt Text:**
+  ```text
+  Pisahkan service yang melebihi
+  500 line menjadi service yang lebih kecil.
   ```
 
 ---

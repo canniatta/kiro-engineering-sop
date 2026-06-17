@@ -82,3 +82,22 @@ Sediakan struktur folder yang diusulkan dan kode lengkap yang siap pakai.
 
 > [!IMPORTANT]
 > Pastikan registrasi dependency injection (DI) di-update di berkas `DependencyInjection.cs` masing-masing layer setelah komponen baru ditambahkan.
+
+---
+
+## 4. Code Decomposition (Service Splitting)
+
+**Kapan digunakan:** Memecah kelas/service C# yang terlalu besar (melebihi batas maksimal 500 baris kode sesuai checklist G-50) menjadi service-service kecil yang lebih modular.
+
+```text
+Pisahkan service yang melebihi
+500 line menjadi service yang lebih kecil.
+```
+
+> [!TIP]
+> - Tempelkan berkas C# service yang ukurannya terlampau besar.
+> - Rujuk batasan baris file di checklist review #[[file:docs/08-template-code-review-checklist.md]] sebagai referensi kualitas kode.
+> - Instruksikan AI untuk menggunakan prinsip Single Responsibility (SRP) dalam mengekstrak method atau dependency baru.
+
+> [!IMPORTANT]
+> Selalu pastikan hasil ekstraksi service baru tidak merusak alur pengujian unit; perbarui unit test yang terdampak untuk menguji dependency baru tersebut.

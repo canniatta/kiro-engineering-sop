@@ -107,3 +107,26 @@ Output:
 
 > [!IMPORTANT]
 > Pastikan kontrak API yang diusulkan oleh AI diverifikasi kelayakannya oleh tim Frontend dan Backend sebelum mulai di-breakdown menjadi tasks pekerjaan.
+
+---
+
+## 5. Architectural Refactoring Plan
+
+**Kapan digunakan:** Menyusun rencana migrasi dan menulis ulang proyek lama agar menggunakan standar arsitektur modern (Clean Architecture, CQRS, MediatR, Repository Pattern).
+
+```text
+Refactor project ini menjadi:
+
+- Clean Architecture
+- CQRS
+- MediatR
+- Repository Pattern
+```
+
+> [!TIP]
+> - Sediakan akses ke seluruh berkas proyek legacy (misal .NET Framework atau ASP.NET Web Forms) agar AI memahami strukturnya.
+> - Rujuk berkas pedoman modernisasi sistem di #[[file:docs/24-refactoring-legacy-systems.md]] dan templat Clean Architecture di #[[file:docs/12-template-clean-architecture-dotnet8.md]].
+> - Mintalah AI merancang strategi transisi bertahap (seperti *Strangler Fig Pattern* atau *Anti-Corruption Layer*) sebelum melakukan penulisan ulang kode.
+
+> [!IMPORTANT]
+> Proses pemisahan arsitektur berskala besar wajib melalui tahap pengajuan ADR (Architecture Decision Record) sesuai standar di #[[file:docs/07-template-adr.md]] untuk persetujuan tim Tech Lead.
