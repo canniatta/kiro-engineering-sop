@@ -7,7 +7,7 @@ inclusion: manual
 > [!NOTE]
 > **Source of Truth**
 >
-> - Checklist lengkap dengan penjelasan: #[[file:23-release-readiness-checklists.md]]
+> - Checklist lengkap dengan penjelasan: #[[file:docs/23-release-readiness-checklists.md]]
 
 ## 1. Pre-Pull Request Checklist
 

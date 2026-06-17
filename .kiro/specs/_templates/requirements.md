@@ -3,7 +3,7 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Template PRD lengkap: #[[file:04-template-prd-user-story.md]]
+> - Template PRD lengkap: #[[file:docs/04-template-prd-user-story.md]]
 
 ---
 

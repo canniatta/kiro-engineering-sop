@@ -7,7 +7,7 @@ inclusion: manual
 > [!NOTE]
 > **Source of Truth**
 >
-> - Detail implementasi setiap rule: #[[file:02-kiro-setup-and-configuration.md]] (section "25 Recommended Kiro Rules")
+> - Detail implementasi setiap rule: #[[file:docs/02-kiro-setup-and-configuration.md]] (section "25 Recommended Kiro Rules")
 > - Implementasi per-domain ada di steering files: `dotnet-rules.md`, `react-rules.md`, `sql-rules.md`, `api-rules.md`, `testing-rules.md`, `git-rules.md`
 
 ## Ringkasan

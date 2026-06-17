@@ -3,7 +3,7 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Konvensi penulisan formal: #[[file:00-master-index.md]] (section "Konvensi Penulisan")
+> - Konvensi penulisan formal: #[[file:docs/00-master-index.md]] (section "Konvensi Penulisan")
 > - Contoh penerapan: dokumen `01-25` di root adalah referensi gaya hidup
 
 ## Bahasa

@@ -8,8 +8,8 @@ fileMatchPattern: ".github/**"
 > [!NOTE]
 > **Source of Truth**
 >
-> - GitHub Flow & PR Strategy: #[[file:15-workflow-github-flow.md]]
-> - Rule 17 (Git): #[[file:02-kiro-setup-and-configuration.md]] (section "Rules")
+> - GitHub Flow & PR Strategy: #[[file:docs/15-workflow-github-flow.md]]
+> - Rule 17 (Git): #[[file:docs/02-kiro-setup-and-configuration.md]] (section "Rules")
 
 ## GitHub Flow
 

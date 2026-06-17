@@ -3,8 +3,8 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Indeks lengkap dan deskripsi proyek: #[[file:00-master-index.md]]
-> - Mindset & filosofi: #[[file:01-executive-summary-and-mindset.md]]
+> - Indeks lengkap dan deskripsi proyek: #[[file:docs/00-master-index.md]]
+> - Mindset & filosofi: #[[file:docs/01-executive-summary-and-mindset.md]]
 >
 > File ini ringkasan untuk Kiro. Untuk konteks bisnis lengkap, baca dokumen sumber.
 

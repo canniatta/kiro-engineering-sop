@@ -3,7 +3,7 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Template ADR lengkap: #[[file:07-template-adr.md]]
+> - Template ADR lengkap: #[[file:docs/07-template-adr.md]]
 > - Template file: `.kiro/specs/_templates/adr.md`
 
 ## Apa Itu ADR?

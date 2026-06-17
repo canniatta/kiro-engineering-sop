@@ -3,7 +3,7 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Workflow SDD: #[[file:14-spec-driven-development.md]]
+> - Workflow SDD: #[[file:docs/14-spec-driven-development.md]]
 > - Requirements: `./requirements.md`
 > - Design: `./design.md`
 

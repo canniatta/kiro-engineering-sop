@@ -3,11 +3,11 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Workflow SDD: #[[file:14-spec-driven-development.md]]
-> - Template PRD: #[[file:04-template-prd-user-story.md]]
-> - Template SRS: #[[file:05-template-srs.md]]
-> - Template TDD: #[[file:06-template-technical-design-document.md]]
-> - Template ADR: #[[file:07-template-adr.md]]
+> - Workflow SDD: #[[file:docs/14-spec-driven-development.md]]
+> - Template PRD: #[[file:docs/04-template-prd-user-story.md]]
+> - Template SRS: #[[file:docs/05-template-srs.md]]
+> - Template TDD: #[[file:docs/06-template-technical-design-document.md]]
+> - Template ADR: #[[file:docs/07-template-adr.md]]
 
 ## Alur Spec-Driven Development
 
@@ -38,8 +38,8 @@ Setiap feature memiliki folder di `.kiro/specs/` dengan struktur:
 
 | File Spec | Template Source | Konten Utama |
 |---|---|---|
-| `requirements.md` | #[[file:04-template-prd-user-story.md]], #[[file:05-template-srs.md]] | User stories, acceptance criteria, constraints |
-| `design.md` | #[[file:06-template-technical-design-document.md]], #[[file:07-template-adr.md]] | Architecture decisions, API contracts, DB schema |
+| `requirements.md` | #[[file:docs/04-template-prd-user-story.md]], #[[file:docs/05-template-srs.md]] | User stories, acceptance criteria, constraints |
+| `design.md` | #[[file:docs/06-template-technical-design-document.md]], #[[file:docs/07-template-adr.md]] | Architecture decisions, API contracts, DB schema |
 | `tasks.md` | — (generated from design) | Checklist tasks yang actionable |
 
 ## Workflow Langkah demi Langkah

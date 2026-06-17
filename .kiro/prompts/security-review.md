@@ -3,10 +3,10 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Master library Section 5: #[[file:03-prompt-library.md]] (Section "Security & Code Review Prompts")
-> - Code review checklist: #[[file:08-template-code-review-checklist.md]]
-> - API review checklist: #[[file:10-template-api-review-checklist.md]]
-> - API Performance Review Checklist: #[[file:10a-api-performance-review-checklist.md]]
+> - Master library Section 5: #[[file:docs/03-prompt-library.md]] (Section "Security & Code Review Prompts")
+> - Code review checklist: #[[file:docs/08-template-code-review-checklist.md]]
+> - API review checklist: #[[file:docs/10-template-api-review-checklist.md]]
+> - API Performance Review Checklist: #[[file:docs/10a-api-performance-review-checklist.md]]
 
 ---
 

@@ -8,9 +8,9 @@ fileMatchPattern: "*.sql"
 > [!NOTE]
 > **Source of Truth**
 >
-> - SQL Review Checklist: #[[file:09-template-sql-review-checklist.md]]
-> - Performance Tuning Playbook: #[[file:19-playbook-performance-tuning-sql.md]]
-> - Rule 11 (SQL): #[[file:02-kiro-setup-and-configuration.md]] (section "Rules")
+> - SQL Review Checklist: #[[file:docs/09-template-sql-review-checklist.md]]
+> - Performance Tuning Playbook: #[[file:docs/19-playbook-performance-tuning-sql.md]]
+> - Rule 11 (SQL): #[[file:docs/02-kiro-setup-and-configuration.md]] (section "Rules")
 
 ## SARGability Rules
 

@@ -8,8 +8,8 @@ fileMatchPattern: "*{Tests,Test,test,spec}*"
 > [!NOTE]
 > **Source of Truth**
 >
-> - Unit Testing Strategy: #[[file:22-unit-testing-strategy.md]]
-> - Rule 13 (Testing): #[[file:02-kiro-setup-and-configuration.md]] (section "Rules")
+> - Unit Testing Strategy: #[[file:docs/22-unit-testing-strategy.md]]
+> - Rule 13 (Testing): #[[file:docs/02-kiro-setup-and-configuration.md]] (section "Rules")
 
 ## Testing Pyramid
 

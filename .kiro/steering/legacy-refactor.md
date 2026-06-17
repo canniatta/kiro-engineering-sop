@@ -7,7 +7,7 @@ inclusion: manual
 > [!NOTE]
 > **Source of Truth**
 >
-> - Playbook lengkap: #[[file:24-refactoring-legacy-systems.md]]
+> - Playbook lengkap: #[[file:docs/24-refactoring-legacy-systems.md]]
 
 ## Legacy Assessment Matrix
 

@@ -3,8 +3,8 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Daftar lengkap dokumen & nomor: #[[file:00-master-index.md]] (section "Table of Contents")
-> - Konvensi penulisan: #[[file:00-master-index.md]] (section "Konvensi Penulisan")
+> - Daftar lengkap dokumen & nomor: #[[file:docs/00-master-index.md]] (section "Table of Contents")
+> - Konvensi penulisan: #[[file:docs/00-master-index.md]] (section "Konvensi Penulisan")
 
 ## Pola Penamaan File
 

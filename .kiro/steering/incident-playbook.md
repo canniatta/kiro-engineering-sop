@@ -7,7 +7,7 @@ inclusion: manual
 > [!NOTE]
 > **Source of Truth**
 >
-> - Prosedur lengkap dan detail: #[[file:17-workflow-incident-management.md]]
+> - Prosedur lengkap dan detail: #[[file:docs/17-workflow-incident-management.md]]
 
 ## Severity Classification
 

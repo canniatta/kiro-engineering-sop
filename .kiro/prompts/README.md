@@ -3,8 +3,8 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Library lengkap (120+ prompt): #[[file:03-prompt-library.md]]
-> - Setup & konfigurasi: #[[file:02-kiro-setup-and-configuration.md]]
+> - Library lengkap (120+ prompt): #[[file:docs/03-prompt-library.md]]
+> - Setup & konfigurasi: #[[file:docs/02-kiro-setup-and-configuration.md]]
 
 ## Tentang Folder Ini
 

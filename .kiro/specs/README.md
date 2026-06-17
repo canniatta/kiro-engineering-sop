@@ -3,9 +3,9 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Workflow Spec-Driven Development: #[[file:14-spec-driven-development.md]]
-> - Template PRD: #[[file:04-template-prd-user-story.md]]
-> - Template TDD: #[[file:06-template-technical-design-document.md]]
+> - Workflow Spec-Driven Development: #[[file:docs/14-spec-driven-development.md]]
+> - Template PRD: #[[file:docs/04-template-prd-user-story.md]]
+> - Template TDD: #[[file:docs/06-template-technical-design-document.md]]
 
 ## Tujuan Folder Ini
 
@@ -65,11 +65,11 @@ Template kosong tersedia di subfolder `_templates/`:
 
 | Template | Sumber | Kegunaan |
 |---|---|---|
-| `requirements.md` | #[[file:04-template-prd-user-story.md]] | User stories & acceptance criteria |
-| `srs.md` | #[[file:05-template-srs.md]] | Software Requirements Specification formal |
-| `design.md` | #[[file:06-template-technical-design-document.md]] | Technical design decisions |
+| `requirements.md` | #[[file:docs/04-template-prd-user-story.md]] | User stories & acceptance criteria |
+| `srs.md` | #[[file:docs/05-template-srs.md]] | Software Requirements Specification formal |
+| `design.md` | #[[file:docs/06-template-technical-design-document.md]] | Technical design decisions |
 | `tasks.md` | Derived dari workflow SDD | Task breakdown checklist |
-| `adr.md` | #[[file:07-template-adr.md]] | Architecture Decision Record |
+| `adr.md` | #[[file:docs/07-template-adr.md]] | Architecture Decision Record |
 
 ## Penerapan di Repo SOP Ini
 

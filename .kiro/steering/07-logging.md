@@ -3,8 +3,8 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Template logging: #[[file:11-template-logging-observability.md]]
-> - Rule 8 (Logging): #[[file:02-kiro-setup-and-configuration.md]] (section "Rules")
+> - Template logging: #[[file:docs/11-template-logging-observability.md]]
+> - Rule 8 (Logging): #[[file:docs/02-kiro-setup-and-configuration.md]] (section "Rules")
 
 ## Prinsip Inti
 

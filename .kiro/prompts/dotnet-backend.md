@@ -3,8 +3,8 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Master library Section 2: #[[file:03-prompt-library.md]] (Section ".NET 8 Backend Development Prompts")
-> - Template Clean Architecture: #[[file:12-template-clean-architecture-dotnet8.md]]
+> - Master library Section 2: #[[file:docs/03-prompt-library.md]] (Section ".NET 8 Backend Development Prompts")
+> - Template Clean Architecture: #[[file:docs/12-template-clean-architecture-dotnet8.md]]
 
 ---
 
@@ -54,4 +54,4 @@ Please generate the Query object, DTO, and Repository method using:
 > - Pastikan review SQL yang dihasilkan terhadap standar di `09-template-sql-review-checklist.md`
 
 > [!WARNING]
-> Query SQL yang dihasilkan AI wajib di-review manual sebelum deploy ke production. Lihat panduan di #[[file:19-playbook-performance-tuning-sql.md]].
+> Query SQL yang dihasilkan AI wajib di-review manual sebelum deploy ke production. Lihat panduan di #[[file:docs/19-playbook-performance-tuning-sql.md]].

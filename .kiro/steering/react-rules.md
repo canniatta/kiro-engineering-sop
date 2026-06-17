@@ -8,10 +8,10 @@ fileMatchPattern: "**/*.{tsx,ts,jsx}"
 > [!NOTE]
 > **Source of Truth**
 >
-> - Standar frontend lengkap: #[[file:13-template-reactjs-frontend-standard.md]]
-> - State management rules: #[[file:02-kiro-setup-and-configuration.md]] (Rule 20 — State Management)
-> - React Hook conventions: #[[file:02-kiro-setup-and-configuration.md]] (Rule 18 — React Hook Conventions)
-> - Component standards: #[[file:02-kiro-setup-and-configuration.md]] (Rule 9 — React Component Standards)
+> - Standar frontend lengkap: #[[file:docs/13-template-reactjs-frontend-standard.md]]
+> - State management rules: #[[file:docs/02-kiro-setup-and-configuration.md]] (Rule 20 — State Management)
+> - React Hook conventions: #[[file:docs/02-kiro-setup-and-configuration.md]] (Rule 18 — React Hook Conventions)
+> - Component standards: #[[file:docs/02-kiro-setup-and-configuration.md]] (Rule 9 — React Component Standards)
 
 ## Prinsip Arsitektur
 

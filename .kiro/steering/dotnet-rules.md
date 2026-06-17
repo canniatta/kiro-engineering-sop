@@ -8,9 +8,9 @@ fileMatchPattern: "**/*.cs"
 > [!NOTE]
 > **Source of Truth**
 >
-> - 25 Kiro Rules lengkap: #[[file:02-kiro-setup-and-configuration.md]] (section "25 Recommended Kiro Rules")
-> - Clean Architecture template: #[[file:12-template-clean-architecture-dotnet8.md]]
-> - Code review checklist .NET: #[[file:08-template-code-review-checklist.md]] (section ".NET 8 Specific Checklist")
+> - 25 Kiro Rules lengkap: #[[file:docs/02-kiro-setup-and-configuration.md]] (section "25 Recommended Kiro Rules")
+> - Clean Architecture template: #[[file:docs/12-template-clean-architecture-dotnet8.md]]
+> - Code review checklist .NET: #[[file:docs/08-template-code-review-checklist.md]] (section ".NET 8 Specific Checklist")
 
 ## Architecture Pattern
 

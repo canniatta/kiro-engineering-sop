@@ -3,7 +3,7 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Template SRS lengkap: #[[file:05-template-srs.md]]
+> - Template SRS lengkap: #[[file:docs/05-template-srs.md]]
 
 ---
 

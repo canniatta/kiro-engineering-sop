@@ -3,8 +3,8 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Master library Section 3: #[[file:03-prompt-library.md]] (Section "ReactJS Frontend Development Prompts")
-> - Standar frontend: #[[file:13-template-reactjs-frontend-standard.md]]
+> - Master library Section 3: #[[file:docs/03-prompt-library.md]] (Section "ReactJS Frontend Development Prompts")
+> - Standar frontend: #[[file:docs/13-template-reactjs-frontend-standard.md]]
 
 ---
 

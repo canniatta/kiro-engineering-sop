@@ -3,8 +3,8 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - 10 prinsip kerja dengan Kiro: #[[file:01-executive-summary-and-mindset.md]] (section "10 Prinsip Kerja dengan Kiro")
-> - Anti-patterns: #[[file:01-executive-summary-and-mindset.md]] (section "Anti-Patterns yang Harus Dihindari")
+> - 10 prinsip kerja dengan Kiro: #[[file:docs/01-executive-summary-and-mindset.md]] (section "10 Prinsip Kerja dengan Kiro")
+> - Anti-patterns: #[[file:docs/01-executive-summary-and-mindset.md]] (section "Anti-Patterns yang Harus Dihindari")
 
 ## 10 Prinsip Kerja dengan Kiro
 

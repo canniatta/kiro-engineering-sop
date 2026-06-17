@@ -3,8 +3,8 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Master library Section 1: #[[file:03-prompt-library.md]] (Section "Architecture & System Design Prompts")
-> - Template arsitektur: #[[file:12-template-clean-architecture-dotnet8.md]]
+> - Master library Section 1: #[[file:docs/03-prompt-library.md]] (Section "Architecture & System Design Prompts")
+> - Template arsitektur: #[[file:docs/12-template-clean-architecture-dotnet8.md]]
 
 ---
 

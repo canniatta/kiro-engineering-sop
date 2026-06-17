@@ -3,9 +3,9 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Stack yang ditargetkan SOP: #[[file:00-master-index.md]] (header dokumen)
-> - Detail prerequisites & versi: #[[file:02-kiro-setup-and-configuration.md]] (section "Prerequisites")
-> - Konvensi penulisan repo: #[[file:00-master-index.md]] (section "Konvensi Penulisan")
+> - Stack yang ditargetkan SOP: #[[file:docs/00-master-index.md]] (header dokumen)
+> - Detail prerequisites & versi: #[[file:docs/02-kiro-setup-and-configuration.md]] (section "Prerequisites")
+> - Konvensi penulisan repo: #[[file:docs/00-master-index.md]] (section "Konvensi Penulisan")
 
 ## Stack yang Didokumentasikan
 

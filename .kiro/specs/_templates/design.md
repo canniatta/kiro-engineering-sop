@@ -3,7 +3,7 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Template TDD lengkap: #[[file:06-template-technical-design-document.md]]
+> - Template TDD lengkap: #[[file:docs/06-template-technical-design-document.md]]
 
 ---
 

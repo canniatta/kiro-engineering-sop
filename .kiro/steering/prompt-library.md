@@ -7,7 +7,7 @@ inclusion: manual
 > [!NOTE]
 > **Source of Truth**
 >
-> - Library lengkap (120+ prompts): #[[file:03-prompt-library.md]]
+> - Library lengkap (120+ prompts): #[[file:docs/03-prompt-library.md]]
 > - Prompt disimpan di: `.kiro/prompts/`
 
 ## Ringkasan
@@ -33,7 +33,7 @@ Dokumen ini adalah indeks ringkas dari seluruh kategori prompt yang tersedia di 
 4. Paste ke Kiro chat atau inline prompt (`Ctrl+I` / `Cmd+I`)
 
 > [!TIP]
-> Untuk daftar lengkap 120+ prompts beserta contoh output dan tips penggunaan, lihat dokumen sumber #[[file:03-prompt-library.md]].
+> Untuk daftar lengkap 120+ prompts beserta contoh output dan tips penggunaan, lihat dokumen sumber #[[file:docs/03-prompt-library.md]].
 
 ## Highlight Prompt per Kategori
 

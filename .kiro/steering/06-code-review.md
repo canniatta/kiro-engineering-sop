@@ -3,7 +3,7 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Checklist lengkap: #[[file:08-template-code-review-checklist.md]]
+> - Checklist lengkap: #[[file:docs/08-template-code-review-checklist.md]]
 
 ## 5 Pertanyaan Utama Code Review
 

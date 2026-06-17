@@ -3,7 +3,7 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Kiro setup & konfigurasi: #[[file:02-kiro-setup-and-configuration.md]]
+> - Kiro setup & konfigurasi: #[[file:docs/02-kiro-setup-and-configuration.md]]
 > - Dokumentasi hooks: Kiro internal documentation
 
 ## Apa Itu Hooks?

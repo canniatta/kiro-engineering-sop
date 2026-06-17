@@ -3,9 +3,9 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Master library Section 6: #[[file:03-prompt-library.md]] (Section "Daily Workflows & Automation Prompts")
-> - Workflow harian: #[[file:18-workflow-daily-weekly-monthly.md]]
-> - GitHub Flow: #[[file:15-workflow-github-flow.md]]
+> - Master library Section 6: #[[file:docs/03-prompt-library.md]] (Section "Daily Workflows & Automation Prompts")
+> - Workflow harian: #[[file:docs/18-workflow-daily-weekly-monthly.md]]
+> - GitHub Flow: #[[file:docs/15-workflow-github-flow.md]]
 
 ---
 

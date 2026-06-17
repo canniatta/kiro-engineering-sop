@@ -3,9 +3,9 @@
 > [!NOTE]
 > **Source of Truth**
 >
-> - Master library Section 4: #[[file:03-prompt-library.md]] (Section "SQL Server Database Prompts")
-> - SQL review checklist: #[[file:09-template-sql-review-checklist.md]]
-> - Performance playbook: #[[file:19-playbook-performance-tuning-sql.md]]
+> - Master library Section 4: #[[file:docs/03-prompt-library.md]] (Section "SQL Server Database Prompts")
+> - SQL review checklist: #[[file:docs/09-template-sql-review-checklist.md]]
+> - Performance playbook: #[[file:docs/19-playbook-performance-tuning-sql.md]]
 
 ---
 
