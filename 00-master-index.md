@@ -31,12 +31,61 @@ Berikut adalah daftar lengkap semua dokumen dalam SOP ini, beserta deskripsi dan
 
 ### Dokumen Inti (Core Documents)
 
-| # | Dokumen | Deskripsi | Halaman | Target Pembaca |
-|---|---------|-----------|---------|----------------|
-| 00 | **[Master Index](./00-master-index.md)** | Dokumen induk yang menghubungkan semua dokumen SOP | ~500 baris | Semua |
-| 01 | **[Executive Summary & Mindset](./01-executive-summary-and-mindset.md)** | Ringkasan eksekutif, perbandingan tools, mindset shift, dan change management | ~800 baris | Manager, Tech Lead |
-| 02 | **[Kiro Setup & Configuration](./02-kiro-setup-and-configuration.md)** | Panduan instalasi, konfigurasi, rules, extensions, dan environment setup | ~1000 baris | Developer, Tech Lead |
-| 03 | **[Prompt Library](./03-prompt-library.md)** | Library 120+ prompt terorganisir per kategori untuk .NET 8 + ReactJS + SQL Server | ~2000 baris | Developer, Tech Lead |
+| # | Dokumen | Deskripsi | Target Pembaca |
+|---|---------|-----------|----------------|
+| 00 | **[Master Index](./00-master-index.md)** | Dokumen induk yang menghubungkan semua dokumen SOP | Semua |
+| 01 | **[Executive Summary & Mindset](./01-executive-summary-and-mindset.md)** | Ringkasan eksekutif, mindset shift, change management, dan studi kasus | Manager, Tech Lead |
+| 02 | **[Kiro Setup & Configuration](./02-kiro-setup-and-configuration.md)** | Panduan instalasi Kiro, rules steering, extensions stack, dan setting IDE | Developer, Tech Lead |
+| 03 | **[Prompt Library](./03-prompt-library.md)** | Library 120+ prompt siap pakai untuk backend, frontend, database, & review | Developer, Tech Lead |
+
+### Dokumen Templat & Spesifikasi (Templates & Specs)
+
+| # | Dokumen | Deskripsi | Target Pembaca |
+|---|---------|-----------|----------------|
+| 04 | **[Template PRD & User Story](./04-template-prd-user-story.md)** | Template PRD, Use Case, dan User Story (Given-When-Then scenario) | Product Manager, Lead |
+| 05 | **[Template SRS](./05-template-srs.md)** | Dokumen Software Requirements Specification formal standar IEEE | Analyst, Tech Lead |
+| 06 | **[Template Technical Design Document](./06-template-technical-design-document.md)** | Template TDD (skema DB, REST contracts, architecture component) | Developer, Tech Lead |
+| 07 | **[Template ADR](./07-template-adr.md)** | Template Architecture Decision Record + 10 contoh keputusan nyata | Tech Lead, Architect |
+
+### Checklist Review & Standardisasi (Reviews & Checklists)
+
+| # | Dokumen | Deskripsi | Target Pembaca |
+|---|---------|-----------|----------------|
+| 08 | **[Template Code Review Checklist](./08-template-code-review-checklist.md)** | Checklist review kode C# (.NET 8) dan ReactJS | Developer, Tech Lead |
+| 09 | **[Template SQL Review Checklist](./09-template-sql-review-checklist.md)** | Checklist optimasi query, index, and stored procedure SQL Server | DBA, Dev Backend |
+| 10 | **[Template API Review Checklist](./10-template-api-review-checklist.md)** | Standard RESTful API design, input validation (FluentValidation) | Backend Dev, Lead |
+| 10a | **[API Performance Review Checklist](./10a-api-performance-review-checklist.md)** | Deteksi bottleneck API (N+1 query, DbContext, async, LINQ, memory, serialization) | Backend Dev, Lead |
+| 11 | **[Template Logging & Observability](./11-template-logging-observability.md)** | Standar Serilog, Correlation ID tracing, & OpenTelemetry integration | DevOps, Lead |
+
+### Panduan Arsitektur & Standard Coding (Architecture & Coding Standards)
+
+| # | Dokumen | Deskripsi | Target Pembaca |
+|---|---------|-----------|----------------|
+| 12 | **[Template Clean Architecture .NET 8](./12-template-clean-architecture-dotnet8.md)** | Boilerplate code C# lengkap (Domain, Application, Infra, Web API) | Developer, Lead |
+| 13 | **[Template ReactJS Frontend Standard](./13-template-reactjs-frontend-standard.md)** | Boilerplate ReactJS (Vite, Zustand, TanStack Query, Zod validation) | Developer, Lead |
+| 14 | **[Spec-Driven Development Playbook](./14-spec-driven-development.md)** | Metodologi coding berbasis OpenAPI specification bersama Kiro | Developer, Lead |
+
+### Alur Kerja & Operasional (Workflows & Playbooks)
+
+| # | Dokumen | Deskripsi | Target Pembaca |
+|---|---------|-----------|----------------|
+| 15 | **[Workflow GitHub Flow](./15-workflow-github-flow.md)** | Branching, Conventional Commits, PR Template, dan CI/CD Actions | Developer, DevOps |
+| 16 | **[Workflow Azure DevOps & Jira](./16-workflow-azure-devops-jira.md)** | Sinkronisasi Agile board (Jira/Azure DevOps) dengan git flow | Semua |
+| 17 | **[Workflow Incident Management](./17-workflow-incident-management.md)** | Playbook penanganan insiden SEV1-4, hotfix, dan RCA post-mortem | On-Call Team, Lead |
+| 18 | **[Workflow Daily/Weekly/Monthly](./18-workflow-daily-weekly-monthly.md)** | Pembagian waktu ritme kerja engineering harian hingga kuartalan | Semua |
+| 19 | **[Playbook Performance Tuning SQL](./19-playbook-performance-tuning-sql.md)** | Panduan tuning database SQL Server skala jutaan record | DBA, Dev Backend |
+
+### Strategi Tim & Pengukuran Metrik (Team Strategy & Metrics)
+
+| # | Dokumen | Deskripsi | Target Pembaca |
+|---|---------|-----------|----------------|
+| 20 | **[Technical Debt Management](./20-technical-debt-management.md)** | Framework pencatatan, skoring, and pelunasan hutang teknis | Manager, Tech Lead |
+| 21 | **[Knowledge Base Strategy](./21-knowledge-base-strategy.md)** | Standar dokumentasi Docs-as-code dan C4 Architecture Model | Developer, Lead |
+| 22 | **[Unit Testing Strategy](./22-unit-testing-strategy.md)** | Strategi penulisan automated tests backend (xUnit) dan frontend (Jest) | Developer, Lead |
+| 23 | **[Release Readiness Checklists](./23-release-readiness-checklists.md)** | Checklist wajib sebelum PR submit & rilis ke production | Developer, QA, Lead |
+| 24 | **[Refactoring Legacy Systems](./24-refactoring-legacy-systems.md)** | Panduan migrasi aplikasi lama (.NET Framework, Web Forms) | Developer, Lead |
+| 25 | **[ROI Measurement & KPI](./25-roi-measurement-kpi.md)** | Penerapan DORA metrics dan perhitungan ROI finansial adopsi Kiro | Manager, CTO |
+
 
 ### Peta Hubungan Antar Dokumen
 
