@@ -18,12 +18,12 @@ Dokumen ini adalah indeks ringkas dari seluruh kategori prompt yang tersedia di 
 
 | No  | Kategori                     | Use Case                                                              | File Prompt                        |
 | --- | ---------------------------- | --------------------------------------------------------------------- | ---------------------------------- |
-| 1   | Architecture & System Design | DDD setup, Clean Architecture scaffolding, state management decisions | `.kiro/prompts/architecture.md`    |
-| 2   | .NET 8 Backend Development   | CQRS commands, Dapper queries, MediatR handlers, FluentValidation     | `.kiro/prompts/dotnet-backend.md`  |
-| 3   | ReactJS Frontend Development | React Hook Form + Zod, TanStack Query hooks, component scaffolding    | `.kiro/prompts/react-frontend.md`  |
-| 4   | SQL Server Database          | Query optimization, execution plan analysis, idempotent migrations    | `.kiro/prompts/sql-database.md`    |
-| 5   | Security & Code Review       | API security audit, React performance audit, vulnerability detection  | `.kiro/prompts/security-review.md` |
-| 6   | Daily Workflows & Automation | Standup summary, PR description generator, git commit formatter       | `.kiro/prompts/workflows.md`       |
+| 1   | Architecture & System Design | DDD setup, Clean Architecture scaffolding, state management decisions | [[.kiro/prompts/architecture.md](../prompts/architecture.md)] |
+| 2   | .NET 8 Backend Development   | CQRS commands, Dapper queries, MediatR handlers, FluentValidation     | [[.kiro/prompts/dotnet-backend.md](../prompts/dotnet-backend.md)] |
+| 3   | ReactJS Frontend Development | React Hook Form + Zod, TanStack Query hooks, component scaffolding    | [[.kiro/prompts/react-frontend.md](../prompts/react-frontend.md)] |
+| 4   | SQL Server Database          | Query optimization, execution plan analysis, idempotent migrations    | [[.kiro/prompts/sql-database.md](../prompts/sql-database.md)] |
+| 5   | Security & Code Review       | API security audit, React performance audit, vulnerability detection  | [[.kiro/prompts/security-review.md](../prompts/security-review.md)] |
+| 6   | Daily Workflows & Automation | Standup summary, PR description generator, git commit formatter       | [[.kiro/prompts/workflows.md](../prompts/workflows.md)]       |
 
 ## Cara Penggunaan
 

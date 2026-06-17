@@ -14,12 +14,12 @@ Folder `.kiro/prompts/` berisi prompt pilihan yang diekstrak dari master library
 
 | File | Kategori | Use Case | Prompt Count |
 |---|---|---|---|
-| `architecture.md` | Architecture & System Design | Setup Clean Architecture, pilih state management | 2 |
-| `dotnet-backend.md` | .NET 8 Backend Development | CQRS command, Dapper query | 2 |
-| `react-frontend.md` | ReactJS Frontend Development | Form + validasi, custom hooks TanStack Query | 2 |
-| `sql-database.md` | SQL Server Database | Query optimization, migration script | 2 |
-| `security-review.md` | Security & Code Review | API security audit, React performance audit | 2 |
-| `workflows.md` | Daily Workflows & Automation | Standup summary, PR description | 2 |
+| [architecture.md](./architecture.md) | Architecture & System Design | Setup Clean Architecture, pilih state management | 6 |
+| [dotnet-backend.md](./dotnet-backend.md) | .NET 8 Backend Development | CQRS command, Dapper query | 5 |
+| [react-frontend.md](./react-frontend.md) | ReactJS Frontend Development | Form + validasi, custom hooks TanStack Query | 2 |
+| [sql-database.md](./sql-database.md) | SQL Server Database | Query optimization, migration script | 4 |
+| [security-review.md](./security-review.md) | Security & Code Review | API security audit, React performance audit | 7 |
+| [workflows.md](./workflows.md) | Daily Workflows & Automation | Standup summary, PR description | 2 |
 
 ## Cara Menggunakan
 

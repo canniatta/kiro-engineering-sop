@@ -4,7 +4,7 @@
 > **Source of Truth**
 >
 > - Template ADR lengkap: #[[file:docs/07-template-adr.md]]
-> - Template file: `.kiro/specs/_templates/adr.md`
+> - Template file: [.kiro/specs/_templates/adr.md](../../specs/_templates/adr.md)
 
 ## Apa Itu ADR?
 
@@ -56,7 +56,7 @@ Buat ADR baru saat:
 ## Workflow
 
 1. Identifikasi keputusan arsitektur yang perlu didokumentasikan
-2. Copy template dari `.kiro/specs/_templates/adr.md`
+2. Copy template dari [.kiro/specs/_templates/adr.md](../../specs/_templates/adr.md)
 3. Isi semua section (Context, Options, Decision, Consequences)
 4. Submit sebagai PR dengan label `adr`
 5. Review oleh minimal 1 Tech Lead
@@ -78,4 +78,4 @@ Buat ADR baru saat:
 ```
 
 > [!TIP]
-> Gunakan template lengkap di `.kiro/specs/_templates/adr.md` yang mengikuti format MADR (Markdown Any Decision Records).
+> Gunakan template lengkap di [.kiro/specs/_templates/adr.md](../../specs/_templates/adr.md) yang mengikuti format MADR (Markdown Any Decision Records).

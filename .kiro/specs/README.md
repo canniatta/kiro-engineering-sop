@@ -65,11 +65,11 @@ Template kosong tersedia di subfolder `_templates/`:
 
 | Template | Sumber | Kegunaan |
 |---|---|---|
-| `requirements.md` | #[[file:docs/04-template-prd-user-story.md]] | User stories & acceptance criteria |
-| `srs.md` | #[[file:docs/05-template-srs.md]] | Software Requirements Specification formal |
-| `design.md` | #[[file:docs/06-template-technical-design-document.md]] | Technical design decisions |
-| `tasks.md` | Derived dari workflow SDD | Task breakdown checklist |
-| `adr.md` | #[[file:docs/07-template-adr.md]] | Architecture Decision Record |
+| [requirements.md](./_templates/requirements.md) | #[[file:docs/04-template-prd-user-story.md]] | User stories & acceptance criteria |
+| [srs.md](./_templates/srs.md) | #[[file:docs/05-template-srs.md]] | Software Requirements Specification formal |
+| [design.md](./_templates/design.md) | #[[file:docs/06-template-technical-design-document.md]] | Technical design decisions |
+| [tasks.md](./_templates/tasks.md) | Derived dari workflow SDD | Task breakdown checklist |
+| [adr.md](./_templates/adr.md) | #[[file:docs/07-template-adr.md]] | Architecture Decision Record |
 
 ## Penerapan di Repo SOP Ini
 
