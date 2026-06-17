@@ -49,3 +49,29 @@ Write a decision record based on our stack (ReactJS + .NET 8 REST APIs). Then, p
 > - Ganti `[Nama Modul]` dengan modul spesifik (misal: "Dashboard Analytics with 10+ filter combinations")
 > - Output prompt ini cocok dijadikan basis ADR (Architecture Decision Record)
 > - Tambahkan constraint seperti jumlah concurrent users atau frekuensi update untuk konteks lebih kaya
+
+---
+
+## 3. Solution Analysis & Diagrams
+
+**Kapan digunakan:** Meminta Kiro AI untuk menganalisis seluruh solusi/codebase dan membuat diagram visual arsitektur, dependensi, alur database, serta integrasi API eksternal.
+
+```text
+Pelajari seluruh solution ini.
+
+Buatkan:
+1. Architecture Diagram
+2. Dependency Diagram
+3. Database Flow
+4. External API Flow
+
+Gunakan format diagram Mermaid untuk visualisasinya dan berikan penjelasan singkat untuk setiap diagram.
+```
+
+> [!TIP]
+> - Pastikan folder-folder utama (`src/` atau `Presentation/`, `Core/`, `Infrastructure/`) dapat diakses oleh AI.
+> - Rujuk standar penulisan diagram arsitektur di dokumen #[[file:docs/06-template-technical-design-document.md]] dan dependensi di dokumen #[[file:docs/12-template-clean-architecture-dotnet8.md]].
+> - Diagram Mermaid yang dihasilkan dapat ditempel langsung ke berkas markdown desain teknis.
+
+> [!IMPORTANT]
+> Selalu periksa akurasi penamaan proyek dan tabel database pada diagram Mermaid yang dihasilkan agar sesuai dengan kenyataan di dalam codebase.

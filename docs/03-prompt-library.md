@@ -36,6 +36,21 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   Write a decision record based on our stack (ReactJS + .NET 8 REST APIs). Then, provide a complete TypeScript example showing how to combine TanStack Query for API caching and Zustand for local state management (e.g., UI preferences, selection states).
   ```
 
+### Prompt 1.3: Solution Analysis & Architecture Mapping
+* **Kapan digunakan:** Meminta Kiro AI untuk menganalisis seluruh solusi/codebase dan membuat diagram visual arsitektur, dependensi, alur database, serta integrasi API eksternal.
+* **Prompt Text:**
+  ```text
+  Pelajari seluruh solution ini.
+
+  Buatkan:
+  1. Architecture Diagram
+  2. Dependency Diagram
+  3. Database Flow
+  4. External API Flow
+
+  Gunakan format diagram Mermaid untuk visualisasinya dan berikan penjelasan singkat untuk setiap diagram.
+  ```
+
 ---
 
 ## 2. .NET 8 Backend Development Prompts
