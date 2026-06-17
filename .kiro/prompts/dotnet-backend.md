@@ -101,3 +101,26 @@ Pisahkan service yang melebihi
 
 > [!IMPORTANT]
 > Selalu pastikan hasil ekstraksi service baru tidak merusak alur pengujian unit; perbarui unit test yang terdampak untuk menguji dependency baru tersebut.
+
+---
+
+## 5. API Documentation Generator
+
+**Kapan digunakan:** Membuat dokumentasi API standar dari Controller C# atau spesifikasi endpoint.
+
+```text
+Buatkan dokumentasi API berikut.
+
+Format:
+- Purpose
+- Request
+- Response
+- Error Code
+- Business Flow
+```
+
+> [!TIP]
+> - Tempelkan kode Controller C# (.NET 8) atau file interface API.
+> - Rujuk berkas template TDD di #[[file:docs/06-template-technical-design-document.md]] untuk format detail Request & Response.
+> - Rujuk registrasi Error Code di #[[file:docs/05-template-srs.md]] jika ada kode error spesifik yang dilempar.
+

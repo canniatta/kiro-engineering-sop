@@ -157,6 +157,20 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   500 line menjadi service yang lebih kecil.
   ```
 
+### Prompt 2.5: API Documentation Generator
+* **Kapan digunakan:** Membuat dokumentasi API standar dari Controller C# atau spesifikasi endpoint.
+* **Prompt Text:**
+  ```text
+  Buatkan dokumentasi API berikut.
+
+  Format:
+  - Purpose
+  - Request
+  - Response
+  - Error Code
+  - Business Flow
+  ```
+
 ---
 
 ## 3. ReactJS Frontend Development Prompts
