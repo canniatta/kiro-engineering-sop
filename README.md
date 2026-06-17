@@ -86,6 +86,11 @@ Metodologi pengukuran kesuksesan dan pengelolaan kualitas jangka panjang:
 * ⚙️ **[docs/24-refactoring-legacy-systems.md](./docs/24-refactoring-legacy-systems.md)**: Playbook migrasi sistem monolitik warisan / legacy code.
 * 📊 **[docs/25-roi-measurement-kpi.md](./docs/25-roi-measurement-kpi.md)**: Implementasi DORA metrics (Deployment Frequency, Lead Time for Changes, MTTR, CFR) untuk efisiensi bisnis.
 
+### 9. Message Broker & Event-Driven (Kafka)
+Panduan integrasi event streaming dan penanganan asinkronus:
+* 🪵 **[docs/27-playbook-kafka-message-broker.md](./docs/27-playbook-kafka-message-broker.md)**: Playbook arsitektur, integrasi C# .NET 8 Clean Architecture, dan prompt khusus Kafka.
+* ⚙️ **[.kiro/steering/kafka-rules.md](./.kiro/steering/kafka-rules.md)**: Aturan kemudi Kiro AI untuk penulisan produser dan konsumer Kafka.
+
 ---
 
 ## ⚡ Langkah Awal Mulai Cepat (Quick Start)

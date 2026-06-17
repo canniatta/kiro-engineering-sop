@@ -86,6 +86,7 @@ Berikut adalah daftar lengkap semua dokumen dalam SOP ini, beserta deskripsi dan
 | 23 | **[Release Readiness Checklists](./23-release-readiness-checklists.md)** | Checklist wajib sebelum PR submit & rilis ke production | Developer, QA, Lead |
 | 24 | **[Refactoring Legacy Systems](./24-refactoring-legacy-systems.md)** | Panduan migrasi aplikasi lama (.NET Framework, Web Forms) | Developer, Lead |
 | 25 | **[ROI Measurement & KPI](./25-roi-measurement-kpi.md)** | Penerapan DORA metrics dan perhitungan ROI finansial adopsi Kiro | Manager, CTO |
+| 27 | **[Playbook Kafka Message Broker](./27-playbook-kafka-message-broker.md)** | Panduan konsep, integrasi .NET 8 Clean Architecture, dan prompt Kafka | Dev Backend, Lead |
 
 
 ### Peta Hubungan Antar Dokumen
@@ -470,10 +471,12 @@ Sebagai Engineering Manager, fokus kamu pada **ROI**, **team productivity**, dan
 | Folder Structure | 02 | Struktur Folder Project |
 | Git Configuration | 02 | Git Configuration |
 | Installation | 02 | Instalasi dan Konfigurasi |
+| Kafka | 27 | Seluruh Dokumen |
 | Kiro Rules | 02 | Kiro Rules dan Steering Files |
 | Legacy Code | 03 | Kategori 11 |
 | Logging | 03 | Kategori 15 |
 | Metrics | 01 | Expected Productivity Gains |
+| Message Broker | 27 | Seluruh Dokumen |
 | Mindset | 01 | Mindset Shift |
 | Monitoring | 03 | Kategori 15 |
 | .NET 8 Development | 03 | Kategori 2 |
