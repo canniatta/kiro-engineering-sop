@@ -85,6 +85,21 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   - Repository Pattern
   ```
 
+### Prompt 1.6: Enterprise Architecture & Risk Review
+* **Kapan digunakan:** Melakukan audit tingkat tinggi pada solusi/codebase untuk memetakan arsitektur saat ini, mengidentifikasi risiko, mendata hutang teknis, dan merancang peta jalan perbaikan.
+* **Prompt Text:**
+  ```text
+  Act as Enterprise Architect.
+
+  Review solution.
+
+  Buat:
+  - Current Architecture
+  - Risk Analysis
+  - Technical Debt
+  - Refactoring Roadmap
+  ```
+
 ---
 
 ## 2. .NET 8 Backend Development Prompts

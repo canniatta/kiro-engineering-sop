@@ -130,3 +130,30 @@ Refactor project ini menjadi:
 
 > [!IMPORTANT]
 > Proses pemisahan arsitektur berskala besar wajib melalui tahap pengajuan ADR (Architecture Decision Record) sesuai standar di #[[file:docs/07-template-adr.md]] untuk persetujuan tim Tech Lead.
+
+---
+
+## 6. Enterprise Architecture & Risk Review
+
+**Kapan digunakan:** Melakukan audit tingkat tinggi pada seluruh solusi/codebase untuk memetakan arsitektur saat ini, mengidentifikasi risiko, mendata hutang teknis secara makro, dan menyusun peta jalan perbaikan arsitektural.
+
+```text
+Act as Enterprise Architect.
+
+Review solution.
+
+Buat:
+- Current Architecture
+- Risk Analysis
+- Technical Debt
+- Refactoring Roadmap
+```
+
+> [!TIP]
+> - Berikan akses ke struktur direktori proyek utama dan file konfigurasi penting (e.g., `csproj`, `package.json`, `appsettings.json`) untuk analisis dependensi yang akurat.
+> - Rujuk berkas manajemen hutang teknis di #[[file:docs/20-technical-debt-management.md]] dan panduan arsitektur di #[[file:docs/12-template-clean-architecture-dotnet8.md]].
+> - Mintalah AI menjabarkan prioritas perbaikan menggunakan matriks urgensi/effort pada bagian *Refactoring Roadmap*.
+
+> [!IMPORTANT]
+> Hasil audit arsitektur tingkat tinggi ini sebaiknya dituangkan ke dalam format laporan evaluasi sebelum dieksekusi sebagai inisiatif perbaikan arsitektur atau didaftarkan dalam *Technical Debt Registry*.
+
