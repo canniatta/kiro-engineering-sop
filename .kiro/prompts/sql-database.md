@@ -87,3 +87,29 @@ Berikan versi optimisasi.
 
 > [!IMPORTANT]
 > Selalu uji fungsionalitas stored procedure yang baru dioptimalkan dengan data pengujian non-production untuk memastikan integritas data (TRY/CATCH block, transactional safety) tetap terjaga.
+
+---
+
+## 4. SQL Query Performance Audit (Expert Review)
+
+**Kapan digunakan:** Menganalisis query SQL Server secara mendalam dengan fokus spesifik pada scan, missing index, sorting, key lookup, dan TempDB.
+
+```text
+Act as SQL Server Performance Expert.
+
+Review query berikut.
+
+Cari:
+- Scan
+- Missing Index
+- Sort
+- Key Lookup
+- TempDB Issue
+
+Berikan query optimisasi.
+```
+
+> [!TIP]
+> - Rujuk berkas checklist di #[[file:docs/09-template-sql-review-checklist.md]] dan playbook tuning di #[[file:docs/19-playbook-performance-tuning-sql.md]] sebagai standar perbaikan.
+> - Sebutkan perkiraan jumlah data/volume baris pada tabel-tabel terkait jika memungkinkan.
+

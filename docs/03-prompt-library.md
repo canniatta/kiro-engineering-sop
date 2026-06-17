@@ -224,6 +224,24 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   Berikan versi optimisasi.
   ```
 
+### Prompt 4.4: SQL Query Performance Audit (Expert Review)
+* **Kapan digunakan:** Menganalisis query SQL Server secara mendalam dengan fokus spesifik pada scan, missing index, sorting, key lookup, dan TempDB.
+* **Prompt Text:**
+  ```text
+  Act as SQL Server Performance Expert.
+
+  Review query berikut.
+
+  Cari:
+  - Scan
+  - Missing Index
+  - Sort
+  - Key Lookup
+  - TempDB Issue
+
+  Berikan query optimisasi.
+  ```
+
 ---
 
 ## 5. Security & Code Review Prompts
