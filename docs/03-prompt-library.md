@@ -187,6 +187,23 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   5. Update metadata tracking tables or history if applicable.
   ```
 
+### Prompt 4.3: Stored Procedure Optimization Audit
+* **Kapan digunakan:** Menganalisis dan mengoptimalkan stored procedure SQL Server yang memiliki performa lambat.
+* **Prompt Text:**
+  ```text
+  Analisa stored procedure berikut.
+
+  Fokus:
+  - Index recommendation
+  - Table scan
+  - Missing covering index
+  - Temp table usage
+  - Parameter sniffing
+  - Query cost
+
+  Berikan versi optimisasi.
+  ```
+
 ---
 
 ## 5. Security & Code Review Prompts

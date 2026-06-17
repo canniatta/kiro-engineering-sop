@@ -59,3 +59,31 @@ The script must:
 
 > [!CAUTION]
 > Migration script untuk production database termasuk area **wajib verifikasi manual**. Jangan langsung deploy tanpa review oleh DBA atau Tech Lead.
+
+---
+
+## 3. Stored Procedure Optimization
+
+**Kapan digunakan:** Menganalisis dan mengoptimalkan stored procedure SQL Server yang memiliki performa lambat di production.
+
+```text
+Analisa stored procedure berikut.
+
+Fokus:
+- Index recommendation
+- Table scan
+- Missing covering index
+- Temp table usage
+- Parameter sniffing
+- Query cost
+
+Berikan versi optimisasi.
+```
+
+> [!TIP]
+> - Tempelkan definisi lengkap DDL Stored Procedure beserta tipe parameter inputnya.
+> - Rujuk berkas checklist di #[[file:docs/09-template-sql-review-checklist.md]] dan playbook tuning di #[[file:docs/19-playbook-performance-tuning-sql.md]] sebagai standar perbaikan.
+> - Mintalah AI memberikan analisis estimasi execution plan perbagian query di dalam stored procedure.
+
+> [!IMPORTANT]
+> Selalu uji fungsionalitas stored procedure yang baru dioptimalkan dengan data pengujian non-production untuk memastikan integritas data (TRY/CATCH block, transactional safety) tetap terjaga.
