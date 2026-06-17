@@ -184,3 +184,37 @@ Berikan improvement plan.
 
 > [!IMPORTANT]
 > Kebocoran data PII di logs berkategori *Critical* dan harus ditangani segera menggunakan logging enricher atau library masking yang disetujui.
+
+---
+
+## 7. MVP .NET Architect Performance Review
+
+**Kapan digunakan:** Mengaudit performa, pemeliharaan, memori, dan skalabilitas kode .NET dari sudut pandang arsitek senior.
+
+```text
+Prompt Performance Review
+Act as Microsoft MVP .NET Architect.
+
+Review code berikut.
+
+Fokus:
+1. Performance
+2. Memory Usage
+3. Scalability
+4. Concurrency
+5. Maintainability
+
+Berikan:
+- Issue
+- Impact
+- Recommendation
+- Optimized Code
+```
+
+> [!TIP]
+> - Tempelkan berkas C# (controller, service, repository, atau handler) yang kinerjanya ingin dioptimalkan.
+> - Rujuk berkas checklist performa API di #[[file:docs/10a-api-performance-review-checklist.md]] dan boilerplate arsitektur di #[[file:docs/12-template-clean-architecture-dotnet8.md]] sebagai referensi kualitas kode.
+> - Mintalah AI untuk menyertakan benchmarking atau kalkulasi memori kasar sebelum vs sesudah optimasi.
+
+> [!IMPORTANT]
+> Hasil usulan *Optimized Code* dari AI wajib diselaraskan dengan standar arsitektur tim dan diverifikasi melalui integrasi test di lingkungan non-production.

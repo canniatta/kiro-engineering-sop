@@ -337,6 +337,29 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   Berikan improvement plan.
   ```
 
+### Prompt 5.7: MVP .NET Architect Performance Review
+* **Kapan digunakan:** Mengaudit performa, pemeliharaan, memori, dan skalabilitas kode .NET dari sudut pandang arsitek senior.
+* **Prompt Text:**
+  ```text
+  Prompt Performance Review
+  Act as Microsoft MVP .NET Architect.
+
+  Review code berikut.
+
+  Fokus:
+  1. Performance
+  2. Memory Usage
+  3. Scalability
+  4. Concurrency
+  5. Maintainability
+
+  Berikan:
+  - Issue
+  - Impact
+  - Recommendation
+  - Optimized Code
+  ```
+
 ---
 
 ## 6. Daily Workflows & Automation Prompts
