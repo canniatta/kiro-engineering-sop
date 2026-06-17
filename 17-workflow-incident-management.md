@@ -46,7 +46,7 @@ Next Update: YYYY-MM-DD HH:MM WIB (Max 30 min from now)
 ### Skenario 1: Database CPU SQL Server 100% / Query Timeout
 * **Penyebab Umum:** Missing Index, Stale Statistics, Parameter Sniffing, atau locking transaction berkepanjangan.
 * **Langkah Mitigasi Cepat:**
-  1. Identifikasi query terlama yang memakan CPU menggunakan query DMV (lihat [SQL Review Checklist](file:///Users/agandazhari/.gemini/antigravity/scratch/kiro-engineering-sop/09-template-sql-review-checklist.md#L98-L112)).
+  1. Identifikasi query terlama yang memakan CPU menggunakan query DMV (lihat [SQL Review Checklist](./09-template-sql-review-checklist.md#L98-L112)).
   2. Jika disebabkan oleh parameter sniffing, jalankan perintah recompile stored procedure terkait:
      ```sql
      EXEC sp_recompile N'dbo.sp_CreateOrderTransaction';
