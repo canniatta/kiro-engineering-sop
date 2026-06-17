@@ -46,6 +46,7 @@ Berikut adalah daftar lengkap semua dokumen dalam SOP ini, beserta deskripsi dan
 | 05 | **[Template SRS](./05-template-srs.md)** | Dokumen Software Requirements Specification formal standar IEEE | Analyst, Tech Lead |
 | 06 | **[Template Technical Design Document](./06-template-technical-design-document.md)** | Template TDD (skema DB, REST contracts, architecture component) | Developer, Tech Lead |
 | 07 | **[Template ADR](./07-template-adr.md)** | Template Architecture Decision Record + 10 contoh keputusan nyata | Tech Lead, Architect |
+| 26 | **[Template Architecture Review](./26-template-architecture-review.md)** | Template audit arsitektur sistem (current architecture, risk, technical debt, roadmap) | Architect, Tech Lead |
 
 ### Checklist Review & Standardisasi (Reviews & Checklists)
 
