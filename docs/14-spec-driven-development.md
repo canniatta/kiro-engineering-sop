@@ -23,6 +23,27 @@ graph TD
     Tests -->|Pass| PR[Create Pull Request]
 ```
 
+### 1.1. Workflow Produktivitas Harian dengan Kiro
+
+Berikut adalah visualisasi alur kerja pengembangan harian dari penemuan requirement hingga pengajuan Pull Request menggunakan bantuan asisten AI Kiro:
+
+```mermaid
+flowchart TD
+    Req["Requirement (Masalah/Fitur)"]
+    --> SRS["Kiro Generate SRS (requirements.md)"]
+    --> Design["Kiro Generate Design (design.md / ADR)"]
+    --> Tasks["Kiro Generate Task Breakdown (tasks.md)"]
+    --> Code["Implementasi / Coding (Kiro Code Gen)"]
+    --> Review["Kiro Code Review (Audit Kualitas & Keamanan)"]
+    --> Test["Kiro Generate Unit Test (xUnit & Moq)"]
+    --> Docs["Kiro Generate Documentation (PR Description)"]
+    --> PR["Pull Request (Merge ke main/develop)"]
+
+    style Req fill:#f9f,stroke:#333,stroke-width:2px
+    style PR fill:#bbf,stroke:#333,stroke-width:2px
+```
+
+
 ### Mengapa Sangat Efektif bersama Kiro?
 1. **Mengurangi Halusinasi AI:** Dengan menyuplai Kiro dengan file spesifikasi yang terdefinisi dengan jelas (seperti file `.openapi.yaml` atau skema database `.sql`), Kiro memiliki basis kebenaran (*ground truth*) yang kuat dan meminimalisir pembuatan kode di luar cakupan.
 2. **Deterministic Code Generation:** Spesifikasi bertindak sebagai instruksi berskala tinggi, sehingga Kiro dapat menghasilkan implementasi C# (.NET 8 Clean Architecture) dan TypeScript (ReactJS) secara konsisten.

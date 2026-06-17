@@ -68,6 +68,26 @@ flowchart TD
     Tests -->|Pass| PR[Create Pull Request]
 ```
 
+## Alur Produktivitas Developer dengan Kiro
+
+Berikut adalah peta alur kerja linear harian yang disarankan untuk memaksimalkan produktivitas bersama Kiro:
+
+```mermaid
+flowchart TD
+    Req["Requirement (Masalah/Fitur)"]
+    --> SRS["Kiro Generate SRS (requirements.md)"]
+    --> Design["Kiro Generate Design (design.md / ADR)"]
+    --> Tasks["Kiro Generate Task Breakdown (tasks.md)"]
+    --> Code["Implementasi / Coding (Kiro Code Gen)"]
+    --> Review["Kiro Code Review (Audit Kualitas & Keamanan)"]
+    --> Test["Kiro Generate Unit Test (xUnit & Moq)"]
+    --> Docs["Kiro Generate Documentation (PR Description)"]
+    --> PR["Pull Request (Merge ke main/develop)"]
+
+    style Req fill:#f9f,stroke:#333,stroke-width:2px
+    style PR fill:#bbf,stroke:#333,stroke-width:2px
+```
+
 ## Penerapan di Repo SOP Ini
 
 > [!TIP]
