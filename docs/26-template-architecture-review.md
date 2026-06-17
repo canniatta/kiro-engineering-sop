@@ -69,7 +69,7 @@ graph TD
 
 ## 4. Technical Debt Registry (Pencatatan Hutang Teknis)
 
-*Petakan hutang teknis utama yang ditemukan di dalam codebase saat ini. Rujuk kategori skoring pada [Technical Debt Management](file:///Users/agandazhari/kiro-engineering-sop/docs/20-technical-debt-management.md).*
+*Petakan hutang teknis utama yang ditemukan di dalam codebase saat ini. Rujuk kategori skoring pada [Technical Debt Management](./20-technical-debt-management.md).*
 
 | ID Debt | Nama / Deskripsi Hutang Teknis | Lokasi File / Modul | Kategori (Code/Architecture/Test/Infra) | Urgensi Pelunasan (High/Medium/Low) | Estimasi Remediasi (S/M/L/XL) |
 |---|---|---|---|---|---|
@@ -214,13 +214,13 @@ graph TD
 #### 📍 Fase 2: Porting Core Backend ke .NET 8 Clean Architecture (Bulan 2-4)
 * **Fokus:** Porting logika bisnis booking dan pembayaran tiket dari ASP.NET MVC (.NET Framework) ke .NET 8 Web API.
 * **Deliverables:**
-  - `[ ]` Inisialisasi arsitektur dasar mengikuti standar [Clean Architecture](file:///Users/agandazhari/kiro-engineering-sop/docs/12-template-clean-architecture-dotnet8.md).
+  - `[ ]` Inisialisasi arsitektur dasar mengikuti standar [Clean Architecture](./12-template-clean-architecture-dotnet8.md).
   - `[ ]` Dekomposisi Controller raksasa di `BookingController.cs` menjadi MediatR Command/Query Handlers di Application Layer.
   - `[ ]` Integrasi dengan EF Core 8 untuk akses data database utama.
 
 #### 📍 Fase 3: Migrasi Frontend ke ReactJS & CI/CD Pipeline (Bulan 5-6)
 * **Fokus:** Modernisasi tampilan user interface menggunakan ReactJS tunggal (SPA) dan otomatisasi deployment.
 * **Deliverables:**
-  - `[ ]` Implementasi UI booking interaktif menggunakan ReactJS sesuai standar [ReactJS Frontend Standard](file:///Users/agandazhari/kiro-engineering-sop/docs/13-template-reactjs-frontend-standard.md).
+  - `[ ]` Implementasi UI booking interaktif menggunakan ReactJS sesuai standar [ReactJS Frontend Standard](./13-template-reactjs-frontend-standard.md).
   - `[ ]` Pembuatan GitHub Actions workflow untuk otomatisasi build, test, dan deployment ke Cloud Hosting (Azure/AWS).
 ```

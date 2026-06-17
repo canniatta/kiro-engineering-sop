@@ -341,7 +341,7 @@ menambahkan item ke cart yang mengacaukan pengalaman checkout.
 | **User Story**   | As a shopper, I want to save products to my wishlist, so that I can buy them later |
 | **Acceptance Criteria** | 1. Heart icon pada setiap product card 2. Toggle on/off wishlist 3. Visual feedback saat ditambahkan 4. Persist across sessions (logged in) 5. Max 200 items per wishlist |
 | **Dependencies** | Auth service, Product service   |
-| **Mockup**       | [Figma - Wishlist Button](link) |
+| **Mockup**       | [Figma - Wishlist Button](#) |
 
 #### FR-002: View Wishlist
 | Field            | Detail                         |
@@ -352,7 +352,7 @@ menambahkan item ke cart yang mengacaukan pengalaman checkout.
 | **User Story**   | As a shopper, I want to see all my saved products in one place, so that I can decide what to buy |
 | **Acceptance Criteria** | 1. Grid/list view toggle 2. Sort by: date added, price, name 3. Filter by: category, availability 4. Show current price & stock status 5. Pagination (20 items/page) |
 | **Dependencies** | Product service, Pricing service |
-| **Mockup**       | [Figma - Wishlist Page](link)  |
+| **Mockup**       | [Figma - Wishlist Page](#)  |
 
 #### FR-003: Move to Cart
 | Field            | Detail                         |

@@ -122,15 +122,13 @@ kiro .
 
 ### Checklist Verifikasi
 
-```
-□ Kiro terinstall dan bisa dibuka
-□ Login berhasil (AWS account)
-□ Inline chat berfungsi (Ctrl+I / Cmd+I)
-□ Agentic chat panel muncul (sidebar)
-□ Spec creation berfungsi
-□ File steering terbaca
-□ Terminal integrated berfungsi
-```
+- [ ] Kiro terinstall dan bisa dibuka
+- [ ] Login berhasil (AWS account)
+- [ ] Inline chat berfungsi (Ctrl+I / Cmd+I)
+- [ ] Agentic chat panel muncul (sidebar)
+- [ ] Spec creation berfungsi
+- [ ] File steering terbaca
+- [ ] Terminal integrated berfungsi
 
 ---
 
@@ -1530,17 +1528,15 @@ ENTRYPOINT ["dotnet", "watch", "run", "--project", "src/ProjectName.Api"]
 
 ### Shared Configuration Checklist
 
-```
-□ .editorconfig committed ke repo (enforced by CI)
-□ .kiro/steering/ folder shared dan versioned
-□ ESLint config shared (.eslintrc.cjs)
-□ Prettier config shared (.prettierrc)
-□ TypeScript config shared (tsconfig.json)
-□ Docker compose files standardized
-□ Git hooks (Husky) setup documented
-□ VS Code extension list (extensions.json)
-□ Environment variable template (.env.example)
-```
+- [ ] .editorconfig committed ke repo (enforced by CI)
+- [ ] .kiro/steering/ folder shared dan versioned
+- [ ] ESLint config shared (.eslintrc.cjs)
+- [ ] Prettier config shared (.prettierrc)
+- [ ] TypeScript config shared (tsconfig.json)
+- [ ] Docker compose files standardized
+- [ ] Git hooks (Husky) setup documented
+- [ ] VS Code extension list (extensions.json)
+- [ ] Environment variable template (.env.example)
 
 ### File: `.vscode/extensions.json` (Recommended Extensions)
 

@@ -1265,13 +1265,13 @@ erDiagram
 ### Appendix A: Wireframes & Mockups
 | Screen | Link | Status |
 |--------|------|--------|
-| Login Page | [Figma - Login](link) | Approved |
-| Registration Page | [Figma - Register](link) | Approved |
-| Dashboard | [Figma - Dashboard](link) | In Review |
-| Product Listing | [Figma - Products](link) | Approved |
-| Product Detail | [Figma - Product Detail](link) | Approved |
-| Checkout Flow | [Figma - Checkout](link) | In Review |
-| Admin Panel | [Figma - Admin](link) | Draft |
+| Login Page | [Figma - Login](#) | Approved |
+| Registration Page | [Figma - Register](#) | Approved |
+| Dashboard | [Figma - Dashboard](#) | In Review |
+| Product Listing | [Figma - Products](#) | Approved |
+| Product Detail | [Figma - Product Detail](#) | Approved |
+| Checkout Flow | [Figma - Checkout](#) | In Review |
+| Admin Panel | [Figma - Admin](#) | Draft |
 
 ### Appendix B: API Endpoint Summary
 | Method | Endpoint | Module | Auth Required | Rate Limit |

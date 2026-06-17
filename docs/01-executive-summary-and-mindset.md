@@ -292,15 +292,13 @@ Kiro bekerja paling optimal ketika memiliki context yang lengkap. Spec yang baik
 
 **Checklist Verifikasi:**
 
-```
-□ Business logic sesuai requirement?
-□ Edge cases sudah di-handle?
-□ SQL queries sudah optimal (no N+1, proper indexing)?
-□ Security: input validation, authorization, SQL injection prevention?
-□ Error handling sudah proper?
-□ Naming conventions sesuai standar tim?
-□ Unit tests cover happy path DAN edge cases?
-```
+- [ ] Business logic sesuai requirement?
+- [ ] Edge cases sudah di-handle?
+- [ ] SQL queries sudah optimal (no N+1, proper indexing)?
+- [ ] Security: input validation, authorization, SQL injection prevention?
+- [ ] Error handling sudah proper?
+- [ ] Naming conventions sesuai standar tim?
+- [ ] Unit tests cover happy path DAN edge cases?
 
 **Area yang WAJIB di-review manual:**
 
@@ -779,14 +777,12 @@ graph TD
 
 ### Training Materials Checklist
 
-```
-□ Slide deck untuk setiap session
-□ Hands-on lab exercises (di sandbox repo)
-□ Recording untuk referensi
-□ Quiz/assessment per session
-□ Feedback form per session
-□ Certificate template (opsional, tapi bagus untuk motivasi)
-```
+- [ ] Slide deck untuk setiap session
+- [ ] Hands-on lab exercises (di sandbox repo)
+- [ ] Recording untuk referensi
+- [ ] Quiz/assessment per session
+- [ ] Feedback form per session
+- [ ] Certificate template (opsional, tapi bagus untuk motivasi)
 
 ---
 

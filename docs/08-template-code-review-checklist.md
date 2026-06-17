@@ -1168,7 +1168,7 @@ Gunakan template berikut untuk setiap Pull Request:
 - [ ] 🔒 Security fix
 
 ### Ticket/Issue
-- Jira: [PROJECT-XXX](link)
+- Jira: [PROJECT-XXX](#)
 - Related PRs: #xxx
 
 ---

@@ -66,33 +66,31 @@ Pengetahuan yang hanya ada di kepala satu atau beberapa orang. Ini adalah **risi
 
 **Cara Mengidentifikasi Tribal Knowledge:**
 
-```markdown
 ## Tribal Knowledge Audit Checklist
 
 Untuk setiap team member, jawab pertanyaan berikut:
 
 1. Apakah ada proses/sistem yang HANYA orang ini yang bisa handle?
-   □ Deployment process
-   □ Database administration
-   □ Third-party integration management
-   □ Legacy system maintenance
-   □ Infrastructure management
-   □ Security/compliance tasks
+   - [ ] Deployment process
+   - [ ] Database administration
+   - [ ] Third-party integration management
+   - [ ] Legacy system maintenance
+   - [ ] Infrastructure management
+   - [ ] Security/compliance tasks
 
 2. Apakah ada "unwritten rules" yang hanya diketahui orang ini?
-   □ Configuration quirks
-   □ Workarounds untuk known issues
-   □ Business logic edge cases
-   □ Performance tuning tips
-   □ Vendor-specific knowledge
+   - [ ] Configuration quirks
+   - [ ] Workarounds untuk known issues
+   - [ ] Business logic edge cases
+   - [ ] Performance tuning tips
+   - [ ] Vendor-specific knowledge
 
 3. Bus Factor Score (1-5):
-   □ 1 = Hanya 1 orang yang tahu (CRITICAL RISK)
-   □ 2 = 2 orang yang tahu (HIGH RISK)
-   □ 3 = 3 orang yang tahu (MODERATE RISK)
-   □ 4 = 4+ orang yang tahu (LOW RISK)
-   □ 5 = Documented & automated (MINIMAL RISK)
-```
+   - [ ] 1 = Hanya 1 orang yang tahu (CRITICAL RISK)
+   - [ ] 2 = 2 orang yang tahu (HIGH RISK)
+   - [ ] 3 = 3 orang yang tahu (MODERATE RISK)
+   - [ ] 4 = 4+ orang yang tahu (LOW RISK)
+   - [ ] 5 = Documented & automated (MINIMAL RISK)
 
 **Strategi Mengurangi Tribal Knowledge:**
 
