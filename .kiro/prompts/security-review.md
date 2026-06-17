@@ -66,3 +66,31 @@ Provide the refactored code with explanations.
 
 > [!WARNING]
 > Jangan over-optimize. Premature optimization bisa menurunkan readability tanpa benefit nyata. Prioritaskan component yang terbukti lambat via React DevTools Profiler.
+
+---
+
+## 3. API Performance Review
+
+**Kapan digunakan:** Mengaudit dan meninjau seluruh API Controller untuk mendeteksi bottleneck kinerja dan masalah alokasi memori sebelum rilis.
+
+```text
+Review seluruh API Controller.
+
+Cari:
+- N+1 query
+- Multiple DbContext call
+- Async issue
+- Unnecessary LINQ
+- Serialization issue
+- Memory allocation issue
+
+Sediakan temuan lengkap beserta baris kode yang bermasalah dan rekomendasi perbaikannya.
+```
+
+> [!TIP]
+> - Tempelkan seluruh kelas Controller termasuk constructor Dependency Injection (DI).
+> - Rujuk standar perbaikan di dokumen #[[file:docs/10a-api-performance-review-checklist.md]] sebagai acuan.
+> - Mintalah AI untuk menyertakan perbandingan kode sebelum vs sesudah optimasi.
+
+> [!IMPORTANT]
+> Selalu pastikan hasil optimasi dari AI diuji melalui unit/integration testing untuk menjamin tidak ada perubahan behavior fungsional API.

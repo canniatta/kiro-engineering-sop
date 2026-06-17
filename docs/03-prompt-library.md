@@ -173,6 +173,23 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   Provide the refactored code with explanations.
   ```
 
+### Prompt 5.3: API Performance Review
+* **Kapan digunakan:** Mengaudit dan meninjau seluruh API Controller untuk mendeteksi bottleneck kinerja dan masalah alokasi memori sebelum rilis.
+* **Prompt Text:**
+  ```text
+  Review seluruh API Controller.
+
+  Cari:
+  - N+1 query
+  - Multiple DbContext call
+  - Async issue
+  - Unnecessary LINQ
+  - Serialization issue
+  - Memory allocation issue
+
+  Sediakan temuan lengkap beserta baris kode yang bermasalah dan rekomendasi perbaikannya.
+  ```
+
 ---
 
 ## 6. Daily Workflows & Automation Prompts
