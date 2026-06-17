@@ -9,19 +9,19 @@
 
 ## 📌 Daftar Isi
 
-1. [Instalasi dan Konfigurasi Kiro Step by Step](#-instalasi-dan-konfigurasi-kiro-step-by-step)
-2. [Kiro Rules dan Steering Files](#-kiro-rules-dan-steering-files)
-3. [Struktur Folder Project](#-struktur-folder-project)
-4. [VS Code Extension Stack](#-vs-code-extension-stack)
-5. [Kiro Configuration Files](#-kiro-configuration-files)
-6. [Git Configuration](#-git-configuration)
-7. [Environment Setup (Windows & macOS)](#-environment-setup-windows--macos)
-8. [Docker Development Environment](#-docker-development-environment)
-9. [Team-Wide Configuration Standardization](#-team-wide-configuration-standardization)
-10. [Custom Kiro Rules untuk .NET, ReactJS, SQL Server](#-custom-kiro-rules-untuk-net-reactjs-sql-server)
-11. [Integration dengan Existing IDE Settings](#-integration-dengan-existing-ide-settings)
-12. [Troubleshooting Common Setup Issues](#-troubleshooting-common-setup-issues)
-13. [Performance Optimization untuk Kiro](#-performance-optimization-untuk-kiro)
+1. [Instalasi dan Konfigurasi Kiro Step by Step](#instalasi-dan-konfigurasi-kiro-step-by-step)
+2. [Kiro Rules dan Steering Files](#kiro-rules-dan-steering-files)
+3. [Struktur Folder Project](#struktur-folder-project)
+4. [VS Code Extension Stack](#vs-code-extension-stack)
+5. [Kiro Configuration Files](#kiro-configuration-files)
+6. [Git Configuration](#git-configuration)
+7. [Environment Setup (Windows & macOS)](#environment-setup-windows--macos)
+8. [Docker Development Environment](#docker-development-environment)
+9. [Team-Wide Configuration Standardization](#team-wide-configuration-standardization)
+10. [Custom Kiro Rules untuk .NET, ReactJS, SQL Server](#custom-kiro-rules-untuk-net-reactjs-sql-server)
+11. [Integration dengan Existing IDE Settings](#integration-dengan-existing-ide-settings)
+12. [Troubleshooting Common Setup Issues](#troubleshooting-common-setup-issues)
+13. [Performance Optimization untuk Kiro](#performance-optimization-untuk-kiro)
 
 ---
 
@@ -1018,7 +1018,7 @@ shared-packages/
 
 ---
 
-## 🧩 VS Code Extension Stack — 33 Extensions Wajib
+## 🧩 VS Code Extension Stack
 
 > [!NOTE]
 > Kiro berbasis VS Code sehingga mendukung sebagian besar VS Code extensions. Berikut extensions yang **WAJIB** dipasang oleh seluruh tim.

@@ -9,18 +9,18 @@
 
 ## 📌 Daftar Isi
 
-1. [Executive Summary untuk Manajemen](#-executive-summary-untuk-manajemen)
-2. [Why Kiro? Perbandingan dengan AI Coding Tools Lain](#-why-kiro-perbandingan-dengan-ai-coding-tools-lain)
-3. [Mindset Shift: Dari Traditional ke AI-Assisted Development](#-mindset-shift-dari-traditional-ke-ai-assisted-development)
-4. [10 Prinsip Kerja dengan Kiro](#-10-prinsip-kerja-dengan-kiro)
-5. [Anti-Patterns yang Harus Dihindari](#-anti-patterns-yang-harus-dihindari)
-6. [Expected Productivity Gains with Real Metrics](#-expected-productivity-gains-with-real-metrics)
-7. [Change Management Strategy](#-change-management-strategy)
-8. [Training Roadmap for Teams](#-training-roadmap-for-teams)
-9. [Success Stories dan Case Studies Format](#-success-stories-dan-case-studies-format)
-10. [Cultural Transformation Guide](#-cultural-transformation-guide)
-11. [Cost-Benefit Analysis Framework](#-cost-benefit-analysis-framework)
-12. [Stakeholder Communication Templates](#-stakeholder-communication-templates)
+1. [Executive Summary untuk Manajemen](#executive-summary-untuk-manajemen)
+2. [Why Kiro? Perbandingan dengan AI Coding Tools Lain](#why-kiro-perbandingan-dengan-ai-coding-tools-lain)
+3. [Mindset Shift: Dari Traditional ke AI-Assisted Development](#mindset-shift-dari-traditional-ke-ai-assisted-development)
+4. [10 Prinsip Kerja dengan Kiro](#10-prinsip-kerja-dengan-kiro)
+5. [Anti-Patterns yang Harus Dihindari](#anti-patterns-yang-harus-dihindari)
+6. [Expected Productivity Gains with Real Metrics](#expected-productivity-gains-with-real-metrics)
+7. [Change Management Strategy](#change-management-strategy)
+8. [Training Roadmap for Teams](#training-roadmap-for-teams)
+9. [Success Stories dan Case Studies Format](#success-stories-dan-case-studies-format)
+10. [Cultural Transformation Guide](#cultural-transformation-guide)
+11. [Cost-Benefit Analysis Framework](#cost-benefit-analysis-framework)
+12. [Stakeholder Communication Templates](#stakeholder-communication-templates)
 
 ---
 
