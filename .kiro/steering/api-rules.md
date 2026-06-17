@@ -9,6 +9,7 @@ fileMatchPattern: "**/*Controller*.cs"
 > **Source of Truth**
 >
 > - API Review Checklist: #[[file:10-template-api-review-checklist.md]]
+> - API Performance Review Checklist: #[[file:10a-api-performance-review-checklist.md]]
 > - Rules 3, 10, 12, 21: #[[file:02-kiro-setup-and-configuration.md]] (section "Rules")
 
 ## URL Conventions
