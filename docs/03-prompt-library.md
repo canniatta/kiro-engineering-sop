@@ -51,6 +51,28 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   Gunakan format diagram Mermaid untuk visualisasinya dan berikan penjelasan singkat untuk setiap diagram.
   ```
 
+### Prompt 1.4: Feature Software Requirement Specification (SRS) Generator
+* **Kapan digunakan:** Menyusun spesifikasi fungsional dan teknis lengkap untuk sebuah fitur baru menggunakan stack .NET 8 + SQL Server + ReactJS.
+* **Prompt Text:**
+  ```text
+  Buatkan Software Requirement Specification
+  untuk fitur [Nama Fitur].
+
+  Tech Stack:
+  - .NET 8 API
+  - SQL Server
+  - ReactJS
+
+  Output:
+  1. User Story
+  2. Functional Requirement
+  3. Non Functional Requirement
+  4. API Contract
+  5. Database Impact
+  6. Risk
+  ```
+* **Contoh Penggunaan:** `Buatkan Software Requirement Specification untuk fitur Single Tarif Kesepakatan.`
+
 ---
 
 ## 2. .NET 8 Backend Development Prompts

@@ -75,3 +75,35 @@ Gunakan format diagram Mermaid untuk visualisasinya dan berikan penjelasan singk
 
 > [!IMPORTANT]
 > Selalu periksa akurasi penamaan proyek dan tabel database pada diagram Mermaid yang dihasilkan agar sesuai dengan kenyataan di dalam codebase.
+
+---
+
+## 4. Feature SRS Generator
+
+**Kapan digunakan:** Menyusun spesifikasi fungsional dan teknis lengkap untuk sebuah fitur baru menggunakan stack .NET 8 + SQL Server + ReactJS.
+
+```text
+Buatkan Software Requirement Specification
+untuk fitur [Nama Fitur].
+
+Tech Stack:
+- .NET 8 API
+- SQL Server
+- ReactJS
+
+Output:
+1. User Story
+2. Functional Requirement
+3. Non Functional Requirement
+4. API Contract
+5. Database Impact
+6. Risk
+```
+
+> [!TIP]
+> - Ganti `[Nama Fitur]` dengan fitur spesifik yang akan dibangun (misal: "Single Tarif Kesepakatan" atau "Multi-tenant Billing Cycle").
+> - Rujuk standar penulisan User Story di dokumen #[[file:docs/04-template-prd-user-story.md]] dan templat SRS di #[[file:docs/05-template-srs.md]].
+> - File output dapat disimpan langsung di bawah folder `.kiro/specs/<nama-fitur>/requirements.md` untuk mengawali workflow SDD.
+
+> [!IMPORTANT]
+> Pastikan kontrak API yang diusulkan oleh AI diverifikasi kelayakannya oleh tim Frontend dan Backend sebelum mulai di-breakdown menjadi tasks pekerjaan.
