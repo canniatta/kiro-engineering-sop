@@ -94,3 +94,36 @@ Sediakan temuan lengkap beserta baris kode yang bermasalah dan rekomendasi perba
 
 > [!IMPORTANT]
 > Selalu pastikan hasil optimasi dari AI diuji melalui unit/integration testing untuk menjamin tidak ada perubahan behavior fungsional API.
+
+---
+
+## 4. Full Solution Code Audit
+
+**Kapan digunakan:** Mengaudit seluruh solusi/codebase untuk mendeteksi berbagai jenis masalah kualitas kode, arsitektur, SOLID, memori, database, performa, dan celah keamanan.
+
+```text
+Analisa seluruh solution ini.
+
+Fokus:
+1. Performance bottleneck
+2. Security issue
+3. Code duplication
+4. Clean Architecture violation
+5. SOLID principle violation
+6. Potential memory leak
+7. Database optimization
+
+Buatkan report dalam format:
+- Critical
+- High
+- Medium
+- Low
+```
+
+> [!TIP]
+> - Pastikan berkas-berkas utama di bawah folder `src/` atau layer proyek Clean Architecture dapat dibaca oleh AI.
+> - Rujuk standar tingkat keparahan di dokumen #[[file:docs/08-template-code-review-checklist.md]] dan panduan optimasi database di #[[file:docs/09-template-sql-review-checklist.md]] serta #[[file:docs/10a-api-performance-review-checklist.md]].
+> - Mintalah saran mitigasi langkah demi langkah untuk setiap temuan berkategori *Critical* dan *High*.
+
+> [!IMPORTANT]
+> Temuan berkategori *Critical* dan *High (Major)* wajib diselesaikan dan lolos pengujian unit sebelum PR diajukan ke tahap peer review.

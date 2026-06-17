@@ -205,6 +205,28 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   Sediakan temuan lengkap beserta baris kode yang bermasalah dan rekomendasi perbaikannya.
   ```
 
+### Prompt 5.4: Full Solution Code Audit
+* **Kapan digunakan:** Mengaudit seluruh solusi/codebase untuk mendeteksi berbagai jenis masalah kualitas kode, arsitektur, SOLID, memori, database, performa, dan celah keamanan.
+* **Prompt Text:**
+  ```text
+  Analisa seluruh solution ini.
+
+  Fokus:
+  1. Performance bottleneck
+  2. Security issue
+  3. Code duplication
+  4. Clean Architecture violation
+  5. SOLID principle violation
+  6. Potential memory leak
+  7. Database optimization
+
+  Buatkan report dalam format:
+  - Critical
+  - High
+  - Medium
+  - Low
+  ```
+
 ---
 
 ## 6. Daily Workflows & Automation Prompts
