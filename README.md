@@ -4,6 +4,26 @@ Selamat datang di repositori **Kiro Engineering SOP**. Repositori ini berisi sta
 
 Dokumen ini bertindak sebagai **Single Source of Truth (SSoT)** untuk menjaga konsistensi, standar kualitas, serta mengoptimalkan produktivitas tim engineering kita.
 
+| Informasi Dokumen | Detail |
+|---|---|
+| **Nama Proyek** | Kiro Engineering Standard Operating Procedure (SOP) |
+| **Versi Dokumen** | v2.0.0 |
+| **Terakhir Diperbarui**| 18 Juni 2026 |
+| **Status** | 🟢 Approved (Active) |
+| **Author / Penyusun** | **UNiVerSe** |
+| **Maintainer** | **UNiVerSe** |
+| **Klasifikasi** | 🔒 Internal Only (Confidential) |
+| **Feedback Channel** | Slack: `#engineering-sop` \| Email: `universe@techmaju.example.com` |
+
+---
+
+## 👥 Kontributor Utama
+* **SOP Author & Owner**: **UNiVerSe**
+* **Engineering Lead**: **UNiVerSe**
+* **Technical Lead**: **UNiVerSe**
+* **DBA (Database Administrator)**: **UNiVerSe**
+* **DevOps Engineer**: **UNiVerSe**
+
 ---
 
 ## 📑 Peta Navigasi Modular (Berdasarkan Domain)
