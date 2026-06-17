@@ -96,3 +96,6 @@ Untuk berkontribusi menggunakan Kiro IDE secara optimal, ikuti langkah berikut:
 2. **Koneksi Kemudi**: Pastikan folder `.kiro/` terdeteksi di root project agar Kiro AI memuat panduan coding standar.
 3. **Cari Berkas Induk**: Mulailah dari **[docs/00-master-index.md](./docs/00-master-index.md)** untuk melihat bagan arsitektur hubungan antar dokumen SOP.
 4. **Verifikasi Checklists**: Sebelum men-submit Pull Request, pastikan Anda telah lulus semua checklist di dokumen **[Release Readiness](./docs/23-release-readiness-checklists.md)**.
+
+> [!TIP]
+> **Tips Checklist Interaktif di Editor**: Secara default, checkbox (`- [ ]`) pada Markdown Preview bersifat *read-only*. Agar dapat diklik langsung di preview dan otomatis mengubah isi berkas, Anda dapat memasang ekstensi **Markdown Checkbox** (oleh Philipp Kief) melalui Extension Marketplace. Jika ingin lebih cepat secara manual tanpa ekstensi, Anda dapat menggunakan shortcut keyboard **`Option + C`** (macOS) atau **`Alt + C`** (Windows) langsung di baris checklist pada editor teks untuk melakukan centang secara instan.
