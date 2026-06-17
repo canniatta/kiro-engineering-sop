@@ -12,8 +12,7 @@ Dokumen ini bertindak sebagai **Single Source of Truth (SSoT)** untuk menjaga ko
 | **Status** | 🟢 Approved (Active) |
 | **Author / Penyusun** | **UNiVerSe** |
 | **Maintainer** | **UNiVerSe** |
-| **Classification** | 🔓 Public / Open Source |
-| **Feedback Channel** | Slack: `#engineering-sop` \| Email: `universe@techmaju.example.com` |
+| **Klasifikasi** | 🔓 Public / Open Source |
 
 ---
 
