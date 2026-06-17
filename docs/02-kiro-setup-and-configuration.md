@@ -9,23 +9,23 @@
 
 ## 📌 Daftar Isi
 
-1. [Instalasi dan Konfigurasi Kiro Step by Step](#instalasi-dan-konfigurasi-kiro-step-by-step)
-2. [Kiro Rules dan Steering Files](#kiro-rules-dan-steering-files)
-3. [Struktur Folder Project](#struktur-folder-project)
-4. [VS Code Extension Stack](#vs-code-extension-stack)
-5. [Kiro Configuration Files](#kiro-configuration-files)
-6. [Git Configuration](#git-configuration)
-7. [Environment Setup (Windows & macOS)](#environment-setup-windows--macos)
-8. [Docker Development Environment](#docker-development-environment)
-9. [Team-Wide Configuration Standardization](#team-wide-configuration-standardization)
-10. [Custom Kiro Rules untuk .NET, ReactJS, SQL Server](#custom-kiro-rules-untuk-net-reactjs-sql-server)
-11. [Integration dengan Existing IDE Settings](#integration-dengan-existing-ide-settings)
-12. [Troubleshooting Common Setup Issues](#troubleshooting-common-setup-issues)
-13. [Performance Optimization untuk Kiro](#performance-optimization-untuk-kiro)
+1. [🔧 Instalasi dan Konfigurasi Kiro Step by Step](#instalasi-dan-konfigurasi-kiro-step-by-step)
+2. [📜 Kiro Rules dan Steering Files](#kiro-rules-dan-steering-files)
+3. [📁 Struktur Folder Project](#struktur-folder-project)
+4. [🧩 VS Code Extension Stack](#vs-code-extension-stack)
+5. [📄 Kiro Configuration Files](#kiro-configuration-files)
+6. [🔀 Git Configuration](#git-configuration)
+7. [💻 Environment Setup (Windows & macOS)](#environment-setup-windows--macos)
+8. [🐳 Docker Development Environment](#docker-development-environment)
+9. [🤝 Team-Wide Configuration Standardization](#team-wide-configuration-standardization)
+10. [🎯 Custom Kiro Rules untuk .NET, ReactJS, SQL Server](#custom-kiro-rules-untuk-net-reactjs-sql-server)
+11. [🔗 Integration dengan Existing IDE Settings](#integration-dengan-existing-ide-settings)
+12. [🔧 Troubleshooting Common Setup Issues](#troubleshooting-common-setup-issues)
+13. [⚡ Performance Optimization untuk Kiro](#performance-optimization-untuk-kiro)
 
 ---
 
-## 🔧 Instalasi dan Konfigurasi Kiro Step by Step
+## Instalasi dan Konfigurasi Kiro Step by Step
 
 ### Prerequisites
 
@@ -134,7 +134,7 @@ kiro .
 
 ---
 
-## 📜 Kiro Rules dan Steering Files
+## Kiro Rules dan Steering Files
 
 ### Apa Itu Steering Files?
 
@@ -824,7 +824,7 @@ var allowedSignatures = new Dictionary<string, byte[]>
 
 ---
 
-## 📁 Struktur Folder Project
+## Struktur Folder Project
 
 ### Opsi A: Monorepo (Recommended untuk tim kecil-medium)
 
@@ -1018,7 +1018,7 @@ shared-packages/
 
 ---
 
-## 🧩 VS Code Extension Stack
+## VS Code Extension Stack
 
 > [!NOTE]
 > Kiro berbasis VS Code sehingga mendukung sebagian besar VS Code extensions. Berikut extensions yang **WAJIB** dipasang oleh seluruh tim.
@@ -1147,7 +1147,7 @@ echo "✅ All extensions installed!"
 
 ---
 
-## 📄 Kiro Configuration Files
+## Kiro Configuration Files
 
 ### File: `.kiro/steering/tech-stack.md`
 
@@ -1279,7 +1279,7 @@ volumes:
 
 ---
 
-## 🔀 Git Configuration
+## Git Configuration
 
 ### File: `.gitignore`
 
@@ -1385,7 +1385,7 @@ hotfix/*       → Emergency production fixes
 
 ---
 
-## 💻 Environment Setup (Windows & macOS)
+## Environment Setup (Windows & macOS)
 
 ### macOS Setup
 
@@ -1471,7 +1471,7 @@ VITE_APP_VERSION=1.0.0
 
 ---
 
-## 🐳 Docker Development Environment
+## Docker Development Environment
 
 ### Quick Start
 
@@ -1526,7 +1526,7 @@ ENTRYPOINT ["dotnet", "watch", "run", "--project", "src/ProjectName.Api"]
 
 ---
 
-## 🤝 Team-Wide Configuration Standardization
+## Team-Wide Configuration Standardization
 
 ### Shared Configuration Checklist
 
@@ -1594,7 +1594,7 @@ ENTRYPOINT ["dotnet", "watch", "run", "--project", "src/ProjectName.Api"]
 
 ---
 
-## 🎯 Custom Kiro Rules untuk .NET, ReactJS, SQL Server
+## Custom Kiro Rules untuk .NET, ReactJS, SQL Server
 
 ### .NET Specific Steering File
 
@@ -1791,7 +1791,7 @@ public class OrderConfiguration : IEntityTypeConfiguration<Order>
 
 ---
 
-## 🔗 Integration dengan Existing IDE Settings
+## Integration dengan Existing IDE Settings
 
 ### Migrating dari VS Code ke Kiro
 
@@ -1821,7 +1821,7 @@ copy "%APPDATA%\Code\User\settings.json" "%APPDATA%\Kiro\User\settings.json"
 
 ---
 
-## 🔧 Troubleshooting Common Setup Issues
+## Troubleshooting Common Setup Issues
 
 ### Issue 1: Kiro Tidak Mendeteksi .NET SDK
 
@@ -1915,7 +1915,7 @@ Frontend (Vite):
 
 ---
 
-## ⚡ Performance Optimization untuk Kiro
+## Performance Optimization untuk Kiro
 
 ### Tips untuk Kiro Berjalan Lebih Cepat
 

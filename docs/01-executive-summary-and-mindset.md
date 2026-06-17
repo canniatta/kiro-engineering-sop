@@ -9,22 +9,22 @@
 
 ## 📌 Daftar Isi
 
-1. [Executive Summary untuk Manajemen](#executive-summary-untuk-manajemen)
-2. [Why Kiro? Perbandingan dengan AI Coding Tools Lain](#why-kiro-perbandingan-dengan-ai-coding-tools-lain)
-3. [Mindset Shift: Dari Traditional ke AI-Assisted Development](#mindset-shift-dari-traditional-ke-ai-assisted-development)
-4. [10 Prinsip Kerja dengan Kiro](#10-prinsip-kerja-dengan-kiro)
-5. [Anti-Patterns yang Harus Dihindari](#anti-patterns-yang-harus-dihindari)
-6. [Expected Productivity Gains with Real Metrics](#expected-productivity-gains-with-real-metrics)
-7. [Change Management Strategy](#change-management-strategy)
-8. [Training Roadmap for Teams](#training-roadmap-for-teams)
-9. [Success Stories dan Case Studies Format](#success-stories-dan-case-studies-format)
-10. [Cultural Transformation Guide](#cultural-transformation-guide)
-11. [Cost-Benefit Analysis Framework](#cost-benefit-analysis-framework)
-12. [Stakeholder Communication Templates](#stakeholder-communication-templates)
+1. [📊 Executive Summary untuk Manajemen](#executive-summary-untuk-manajemen)
+2. [🔍 Why Kiro? Perbandingan dengan AI Coding Tools Lain](#why-kiro-perbandingan-dengan-ai-coding-tools-lain)
+3. [🔄 Mindset Shift: Dari Traditional ke AI-Assisted Development](#mindset-shift-dari-traditional-ke-ai-assisted-development)
+4. [📐 10 Prinsip Kerja dengan Kiro](#10-prinsip-kerja-dengan-kiro)
+5. [⛔ Anti-Patterns yang Harus Dihindari](#anti-patterns-yang-harus-dihindari)
+6. [📈 Expected Productivity Gains with Real Metrics](#expected-productivity-gains-with-real-metrics)
+7. [🔄 Change Management Strategy](#change-management-strategy)
+8. [📚 Training Roadmap for Teams](#training-roadmap-for-teams)
+9. [🏆 Success Stories dan Case Studies Format](#success-stories-dan-case-studies-format)
+10. [🌱 Cultural Transformation Guide](#cultural-transformation-guide)
+11. [💰 Cost-Benefit Analysis Framework](#cost-benefit-analysis-framework)
+12. [📧 Stakeholder Communication Templates](#stakeholder-communication-templates)
 
 ---
 
-## 📊 Executive Summary untuk Manajemen
+## Executive Summary untuk Manajemen
 
 ### Ringkasan Satu Halaman
 
@@ -79,7 +79,7 @@ graph LR
 
 ---
 
-## 🔍 Why Kiro? Perbandingan dengan AI Coding Tools Lain
+## Why Kiro? Perbandingan dengan AI Coding Tools Lain
 
 ### Landscape AI Coding Tools 2026
 
@@ -171,7 +171,7 @@ Kiro memecah specs menjadi **actionable tasks** yang bisa di-track dan di-execut
 
 ---
 
-## 🔄 Mindset Shift: Dari Traditional ke AI-Assisted Development
+## Mindset Shift: Dari Traditional ke AI-Assisted Development
 
 ### Perubahan Fundamental
 
@@ -255,7 +255,7 @@ graph LR
 
 ---
 
-## 📐 10 Prinsip Kerja dengan Kiro
+## 10 Prinsip Kerja dengan Kiro
 
 ### Prinsip 1: "Spec First, Code Second"
 
@@ -522,7 +522,7 @@ graph TD
 
 ---
 
-## ⛔ Anti-Patterns yang Harus Dihindari
+## Anti-Patterns yang Harus Dihindari
 
 ### Anti-Pattern 1: "Blind Copy-Paste"
 
@@ -620,7 +620,7 @@ graph TD
 
 ---
 
-## 📈 Expected Productivity Gains with Real Metrics
+## Expected Productivity Gains with Real Metrics
 
 ### Measurement Framework
 
@@ -686,7 +686,7 @@ graph TD
 
 ---
 
-## 🔄 Change Management Strategy
+## Change Management Strategy
 
 ### Phase-Based Approach
 
@@ -739,7 +739,7 @@ gantt
 
 ---
 
-## 📚 Training Roadmap for Teams
+## Training Roadmap for Teams
 
 ### Training Phases
 
@@ -790,7 +790,7 @@ graph TD
 
 ---
 
-## 🏆 Success Stories dan Case Studies Format
+## Success Stories dan Case Studies Format
 
 ### Template Case Study
 
@@ -876,7 +876,7 @@ ke .NET 8 Minimal API. Manual migration diestimasi 6 sprints.
 
 ---
 
-## 🌱 Cultural Transformation Guide
+## Cultural Transformation Guide
 
 ### Dari Engineering Culture Lama ke Baru
 
@@ -929,7 +929,7 @@ graph TD
 
 ---
 
-## 💰 Cost-Benefit Analysis Framework
+## Cost-Benefit Analysis Framework
 
 ### Cost Categories
 
@@ -998,7 +998,7 @@ ROI = ($210,000 - $34,700) / $34,700 × 100% = 505%
 
 ---
 
-## 📧 Stakeholder Communication Templates
+## Stakeholder Communication Templates
 
 ### Template 1: Email ke C-Level — Proposal Adopsi Kiro
 
