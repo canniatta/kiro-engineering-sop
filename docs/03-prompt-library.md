@@ -282,6 +282,25 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   - Low
   ```
 
+### Prompt 5.5: Unit Test Generator & Coverage Audit
+* **Kapan digunakan:** Membuat automated test terstandar menggunakan xUnit, Moq, dan FluentAssertions, serta mengaudit cakupan metode publik.
+* **Prompt Text:**
+  ```text
+  Prompt:
+
+  Generate xUnit test
+  coverage minimum 90%.
+
+  Gunakan:
+  - Moq
+  - FluentAssertions
+
+  Lalu:
+
+  Cari seluruh public method
+  yang belum memiliki unit test.
+  ```
+
 ---
 
 ## 6. Daily Workflows & Automation Prompts

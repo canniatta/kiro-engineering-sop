@@ -127,3 +127,33 @@ Buatkan report dalam format:
 
 > [!IMPORTANT]
 > Temuan berkategori *Critical* dan *High (Major)* wajib diselesaikan dan lolos pengujian unit sebelum PR diajukan ke tahap peer review.
+
+---
+
+## 5. Unit Test Generator & Coverage Audit
+
+**Kapan digunakan:** Membuat automated test terstandar menggunakan xUnit, Moq, dan FluentAssertions, serta mengaudit cakupan metode publik.
+
+```text
+Prompt:
+
+Generate xUnit test
+coverage minimum 90%.
+
+Gunakan:
+- Moq
+- FluentAssertions
+
+Lalu:
+
+Cari seluruh public method
+yang belum memiliki unit test.
+```
+
+> [!TIP]
+> - Tempelkan kode C# yang ingin dibuatkan unit test-nya (seperti MediatR handlers, domain services).
+> - Rujuk berkas strategi unit testing di #[[file:docs/22-unit-testing-strategy.md]].
+> - Mintalah AI untuk menyusun kode test yang mencakup skenario happy path, edge cases, dan exception handling.
+
+> [!IMPORTANT]
+> Target cakupan pengujian minimal 90% untuk semua kelas logika bisnis utama (Domain & Application) guna meminimalisir regresi di kemudian hari.
