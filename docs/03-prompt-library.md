@@ -106,6 +106,22 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   5. CancellationToken propagation.
   ```
 
+### Prompt 2.3: Coding Standard Compliance Generator
+* **Kapan digunakan:** Menulis atau memperbarui komponen C# backend agar mematuhi standar pengembangan resmi tim.
+* **Prompt Text:**
+  ```text
+  Buatkan komponen/refactor kode berikut agar mematuhi standar tim.
+
+  Coding Standard:
+  - .NET 8
+  - Repository Pattern
+  - MediatR
+  - Serilog
+  - FluentValidation
+
+  Sediakan struktur folder yang diusulkan dan kode lengkap yang siap pakai.
+  ```
+
 ---
 
 ## 3. ReactJS Frontend Development Prompts

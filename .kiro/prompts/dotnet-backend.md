@@ -55,3 +55,30 @@ Please generate the Query object, DTO, and Repository method using:
 
 > [!WARNING]
 > Query SQL yang dihasilkan AI wajib di-review manual sebelum deploy ke production. Lihat panduan di #[[file:docs/19-playbook-performance-tuning-sql.md]].
+
+---
+
+## 3. Coding Standard Compliance
+
+**Kapan digunakan:** Menulis atau memperbarui komponen C# backend agar mematuhi standar pengembangan resmi tim (.NET 8, Repository Pattern, MediatR, Serilog, FluentValidation).
+
+```text
+Buatkan komponen/refactor kode berikut agar mematuhi standar tim.
+
+Coding Standard:
+- .NET 8
+- Repository Pattern
+- MediatR
+- Serilog
+- FluentValidation
+
+Sediakan struktur folder yang diusulkan dan kode lengkap yang siap pakai.
+```
+
+> [!TIP]
+> - Tempelkan spesifikasi interface atau kode lama yang ingin Anda konversikan.
+> - Rujuk berkas boilerplate arsitektur di #[[file:docs/12-template-clean-architecture-dotnet8.md]] dan standar logging di #[[file:docs/11-template-logging-observability.md]].
+> - Mintalah AI memisahkan layer Domain (Entity & Event) dan layer Application (MediatR Command/Query & Handler).
+
+> [!IMPORTANT]
+> Pastikan registrasi dependency injection (DI) di-update di berkas `DependencyInjection.cs` masing-masing layer setelah komponen baru ditambahkan.
