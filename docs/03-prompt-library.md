@@ -321,6 +321,22 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   yang belum memiliki unit test.
   ```
 
+### Prompt 5.6: Logging & Observability Audit
+* **Kapan digunakan:** Memeriksa dan mengaudit implementasi pencatatan log (observabilitas) serta kepatuhan perlindungan data pada seluruh proyek.
+* **Prompt Text:**
+  ```text
+  Review seluruh logging implementation.
+
+  Cari:
+  - Missing correlation id
+  - Missing audit log
+  - Sensitive data exposure
+  - PII leakage
+  - Error logging issue
+
+  Berikan improvement plan.
+  ```
+
 ---
 
 ## 6. Daily Workflows & Automation Prompts

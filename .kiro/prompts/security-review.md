@@ -157,3 +157,30 @@ yang belum memiliki unit test.
 
 > [!IMPORTANT]
 > Target cakupan pengujian minimal 90% untuk semua kelas logika bisnis utama (Domain & Application) guna meminimalisir regresi di kemudian hari.
+
+---
+
+## 6. Logging & Observability Audit
+
+**Kapan digunakan:** Memeriksa dan mengaudit implementasi pencatatan log (observabilitas) serta kepatuhan perlindungan data pada seluruh proyek.
+
+```text
+Review seluruh logging implementation.
+
+Cari:
+- Missing correlation id
+- Missing audit log
+- Sensitive data exposure
+- PII leakage
+- Error logging issue
+
+Berikan improvement plan.
+```
+
+> [!TIP]
+> - Tempelkan kode C# middleware, logging configuration, atau logger call di kelas-kelas service utama.
+> - Rujuk berkas standar logging di #[[file:docs/11-template-logging-observability.md]] dan checklist review di #[[file:docs/08-template-code-review-checklist.md Section 3.5 (G-31)]].
+> - Mintalah AI menyertakan saran teknik masking/hashing untuk data PII (seperti email atau nomor telepon) di log.
+
+> [!IMPORTANT]
+> Kebocoran data PII di logs berkategori *Critical* dan harus ditangani segera menggunakan logging enricher atau library masking yang disetujui.
