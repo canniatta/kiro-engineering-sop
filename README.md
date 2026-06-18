@@ -51,7 +51,7 @@ Panduan arsitektur dan standardisasi kode C# (.NET 8):
 
 ### 4. Frontend & User Interface (ReactJS)
 Panduan standar pengembangan client-side application:
-* ⚛️ **[docs/13-template-reactjs-frontend-standard.md](./docs/13-template-reactjs-frontend-standard.md)**: Struktur kode ReactJS (Vite, Zustand state management, TanStack Query, styling, dan form validation).
+* ⚛️ **[docs/13-template-reactjs-frontend-standard.md](./docs/13-template-reactjs-frontend-standard.md)**: Struktur kode ReactJS (Vite, Zustand state management, TanStack Query, styling menggunakan shadcn/ui & Tailwind CSS, dan form validation).
 * ⚙️ **[.kiro/steering/react-rules.md](./.kiro/steering/react-rules.md)**: Aturan kemudi Kiro untuk standardisasi React components, custom hooks, dan render optimization.
 
 ### 5. Logging & Observability

@@ -63,7 +63,7 @@ Berikut adalah daftar lengkap semua dokumen dalam SOP ini, beserta deskripsi dan
 | # | Dokumen | Deskripsi | Target Pembaca |
 |---|---------|-----------|----------------|
 | 12 | **[Template Clean Architecture .NET 8](./12-template-clean-architecture-dotnet8.md)** | Boilerplate code C# lengkap (Domain, Application, Infra, Web API) | Developer, Lead |
-| 13 | **[Template ReactJS Frontend Standard](./13-template-reactjs-frontend-standard.md)** | Boilerplate ReactJS (Vite, Zustand, TanStack Query, Zod validation) | Developer, Lead |
+| 13 | **[Template ReactJS Frontend Standard](./13-template-reactjs-frontend-standard.md)** | Boilerplate ReactJS (Vite, Zustand, TanStack Query, styling shadcn/ui & Tailwind, Zod validation) | Developer, Lead |
 | 14 | **[Spec-Driven Development Playbook](./14-spec-driven-development.md)** | Metodologi coding berbasis OpenAPI specification bersama Kiro | Developer, Lead |
 
 ### Alur Kerja & Operasional (Workflows & Playbooks)
@@ -488,9 +488,11 @@ Sebagai Engineering Manager, fokus kamu pada **ROI**, **team productivity**, dan
 | Refactoring | 03 | Kategori 11 |
 | Security | 03 | Kategori 9 |
 | Setup Guide | 02 | Seluruh Dokumen |
+| shadcn/ui | 13 | Section 3.6 |
 | SQL Server | 03 | Kategori 4 |
 | Stakeholder Communication | 01 | Stakeholder Communication |
 | Steering Files | 02 | Kiro Rules dan Steering Files |
+| Tailwind CSS | 13 | Section 8 |
 | Testing | 03 | Kategori 7 |
 | Training | 01 | Training Roadmap |
 | Troubleshooting | 02 & 03 | Troubleshooting sections |
