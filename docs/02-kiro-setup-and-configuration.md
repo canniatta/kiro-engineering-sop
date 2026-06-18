@@ -1885,14 +1885,14 @@ Solusi:
 ### Issue 6: Frontend Build Errors setelah Clone
 
 ```
-Gejala: npm install gagal atau build errors
+Gejala: pnpm install gagal atau build errors
 Solusi:
 1. Hapus node_modules dan lock file:
-   rm -rf node_modules package-lock.json
-2. Clear npm cache: npm cache clean --force
-3. Install ulang: npm install (atau pnpm install)
+   rm -rf node_modules pnpm-lock.yaml
+2. Clear pnpm cache: pnpm store prune
+3. Install ulang: pnpm install
 4. Cek Node version matches .nvmrc: nvm use
-5. Jika pakai pnpm: cek pnpm-workspace.yaml
+5. Cek pnpm-workspace.yaml jika menggunakan monorepo
 ```
 
 ### Issue 7: Hot Reload Tidak Bekerja

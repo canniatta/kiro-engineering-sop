@@ -23,7 +23,7 @@ Dengan mengintegrasikan Kiro ke alur kerja harian, kami menargetkan efisiensi wa
 
 ### 2.1 Metrik Penghematan Waktu (Target Efisiensi)
 * **Boilerplate & Project Setup:** Efisiensi **70%**. Kiro mereduksi pembuatan kelas-kelas DTO, Entity configurations, dan routing controller dari jam menjadi menit.
-* **Unit Testing Writing:** Efisiensi **60%**. Kiro mempercepat penulisan test cases xUnit/Jest dari data input mock.
+* **Unit Testing Writing:** Efisiensi **60%**. Kiro mempercepat penulisan test cases xUnit/Vitest dari data input mock.
 * **Refactoring Legacy Code:** Efisiensi **40%**. Membantu memahami struktur class lama dan menyusun ulang ke kode modern secara cepat.
 * **API Documentation (Swagger/OpenAPI):** Efisiensi **80%**. Otomasi penulisan OpenAPI YAML spec dari model C#.
 

@@ -279,8 +279,8 @@ See migration docs: docs/migration/v2-auth.md
 
 ```bash
 # Install di root monorepo
-npm init -y
-npm install --save-dev husky lint-staged @commitlint/cli @commitlint/config-conventional
+pnpm init
+pnpm add -D husky lint-staged @commitlint/cli @commitlint/config-conventional
 npx husky init
 ```
 
@@ -292,9 +292,9 @@ npx husky init
   "private": true,
   "scripts": {
     "prepare": "husky",
-    "lint:frontend": "cd src/frontend && npm run lint",
+    "lint:frontend": "cd src/frontend && pnpm run lint",
     "lint:backend": "dotnet format src/backend/Api.sln --verify-no-changes",
-    "test:frontend": "cd src/frontend && npm test -- --passWithNoTests",
+    "test:frontend": "cd src/frontend && pnpm test -- --passWithNoTests",
     "test:backend": "dotnet test src/backend/Api.sln --no-build"
   },
   "lint-staged": {
@@ -1279,25 +1279,30 @@ jobs:
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: "npm"
-          cache-dependency-path: src/frontend/package-lock.json
+          cache: "pnpm"
+          cache-dependency-path: src/frontend/pnpm-lock.yaml
 
       - name: Check .NET Format
         run: dotnet format src/backend/Api.sln --verify-no-changes --verbosity diagnostic
 
       - name: Install Frontend Dependencies
         working-directory: src/frontend
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Lint Frontend
         working-directory: src/frontend
         run: |
-          npm run lint
-          npm run type-check
+          pnpm run lint
+          pnpm run type-check
 
   # ──────────────────────────────────────────────
   # Job 2: Build & Test Backend
@@ -1407,26 +1412,31 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: "npm"
-          cache-dependency-path: src/frontend/package-lock.json
+          cache: "pnpm"
+          cache-dependency-path: src/frontend/pnpm-lock.yaml
 
       - name: Install Dependencies
         working-directory: src/frontend
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Run Tests
         working-directory: src/frontend
-        run: npm test -- --coverage --watchAll=false --ci
+        run: pnpm test -- --coverage --watchAll=false --ci
         env:
           CI: true
 
       - name: Build
         working-directory: src/frontend
-        run: npm run build
+        run: pnpm run build
         env:
           CI: true
           GENERATE_SOURCEMAP: false
@@ -1489,9 +1499,9 @@ jobs:
             exit 1
           fi
 
-      - name: NPM Audit
+      - name: PNPM Audit
         working-directory: src/frontend
-        run: npm audit --production --audit-level=high
+        run: pnpm audit --prod --audit-level high
 ```
 
 ### 9.2 cd-staging.yml — Deploy to Staging

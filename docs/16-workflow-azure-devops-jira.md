@@ -469,33 +469,36 @@ stages:
             inputs:
               versionSpec: $(nodeVersion)
 
-          - task: Cache@2
-            displayName: "Cache npm packages"
-            inputs:
-              key: npm | "$(Agent.OS)" | src/frontend/package-lock.json
-              path: "src/frontend/node_modules"
-              restoreKeys: |
-                npm | "$(Agent.OS)"
+          - script: npm install -g pnpm
+            displayName: "Install pnpm"
 
-          - script: npm ci
+          - task: Cache@2
+            displayName: "Cache pnpm store"
+            inputs:
+              key: pnpm | "$(Agent.OS)" | src/frontend/pnpm-lock.yaml
+              path: $(HOME)/.local/share/pnpm/store
+              restoreKeys: |
+                pnpm | "$(Agent.OS)"
+
+          - script: pnpm install --frozen-lockfile
             displayName: "Install Dependencies"
             workingDirectory: src/frontend
 
-          - script: npm run lint
+          - script: pnpm run lint
             displayName: "Lint"
             workingDirectory: src/frontend
 
-          - script: npm run type-check
+          - script: pnpm run type-check
             displayName: "Type Check"
             workingDirectory: src/frontend
 
-          - script: npm test -- --coverage --watchAll=false --ci
+          - script: pnpm test -- --coverage --watchAll=false --ci
             displayName: "Run Tests"
             workingDirectory: src/frontend
             env:
               CI: true
 
-          - script: npm run build
+          - script: pnpm run build
             displayName: "Build Production"
             workingDirectory: src/frontend
             env:
@@ -531,8 +534,8 @@ stages:
             displayName: "NuGet Vulnerability Check"
 
           - script: |
-              cd src/frontend && npm audit --production --audit-level=high
-            displayName: "NPM Security Audit"
+              cd src/frontend && pnpm audit --prod --audit-level high
+            displayName: "PNPM Security Audit"
             continueOnError: true
 
   # ════════════════════════════════════════
@@ -674,21 +677,24 @@ steps:
     inputs:
       versionSpec: ${{ parameters.nodeVersion }}
 
-  - script: npm ci
+  - script: npm install -g pnpm
+    displayName: "Install pnpm"
+
+  - script: pnpm install --frozen-lockfile
     displayName: "Install Dependencies"
     workingDirectory: ${{ parameters.workingDirectory }}
 
-  - script: npm run lint && npm run type-check
+  - script: pnpm run lint && pnpm run type-check
     displayName: "Lint & Type Check"
     workingDirectory: ${{ parameters.workingDirectory }}
 
-  - script: npm test -- --coverage --watchAll=false --ci
+  - script: pnpm test -- --coverage --watchAll=false --ci
     displayName: "Run Tests"
     workingDirectory: ${{ parameters.workingDirectory }}
     env:
       CI: true
 
-  - script: npm run build
+  - script: pnpm run build
     displayName: "Build"
     workingDirectory: ${{ parameters.workingDirectory }}
     env:

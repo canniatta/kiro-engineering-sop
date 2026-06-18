@@ -82,7 +82,7 @@ Berikut adalah daftar lengkap semua dokumen dalam SOP ini, beserta deskripsi dan
 |---|---------|-----------|----------------|
 | 20 | **[Technical Debt Management](./20-technical-debt-management.md)** | Framework pencatatan, skoring, and pelunasan hutang teknis | Manager, Tech Lead |
 | 21 | **[Knowledge Base Strategy](./21-knowledge-base-strategy.md)** | Standar dokumentasi Docs-as-code dan C4 Architecture Model | Developer, Lead |
-| 22 | **[Unit Testing Strategy](./22-unit-testing-strategy.md)** | Strategi penulisan automated tests backend (xUnit) dan frontend (Jest) | Developer, Lead |
+| 22 | **[Unit Testing Strategy](./22-unit-testing-strategy.md)** | Strategi penulisan automated tests backend (xUnit) dan frontend (Vitest) | Developer, Lead |
 | 23 | **[Release Readiness Checklists](./23-release-readiness-checklists.md)** | Checklist wajib sebelum PR submit & rilis ke production | Developer, QA, Lead |
 | 24 | **[Refactoring Legacy Systems](./24-refactoring-legacy-systems.md)** | Panduan migrasi aplikasi lama (.NET Framework, Web Forms) | Developer, Lead |
 | 25 | **[ROI Measurement & KPI](./25-roi-measurement-kpi.md)** | Penerapan DORA metrics dan perhitungan ROI finansial adopsi Kiro | Manager, CTO |

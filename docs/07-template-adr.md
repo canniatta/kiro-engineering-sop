@@ -104,7 +104,7 @@ Chosen option: **[Option X]**, karena [alasan utama yang mendukung].
 * **Context:** Perubahan skema database harus ter-version control dan terintegrasi dengan pipeline CI/CD Azure DevOps.
 * **Decision:** Gunakan EF Core Migrations dengan mode `dotnet ef database update` yang dijalankan di dalam pipeline CD release.
 
-### ADR-0010: Frontend Integration Testing dengan Jest & Playwright
+### ADR-0010: Frontend Integration Testing dengan Vitest & Playwright
 * **Status:** Accepted
 * **Context:** Kami memerlukan jaminan bahwa alur checkout utama berjalan dengan baik dari sisi UI hingga DB.
-* **Decision:** Gunakan Jest + React Testing Library untuk Unit Test component UI, dan Playwright untuk pengujian End-to-End (E2E) UI flow utama.
+* **Decision:** Gunakan Vitest + React Testing Library untuk Unit Test component UI, dan Playwright untuk pengujian End-to-End (E2E) UI flow utama.

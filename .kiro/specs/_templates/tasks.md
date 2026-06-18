@@ -50,12 +50,15 @@
 
 ## Phase 5: Frontend
 
+- [ ] Konfigurasi routing (React Router DOM v6) & page layout (estimated: 1 hour)
 - [ ] Buat TypeScript interfaces/types dari API contract (estimated: 1 hour)
-- [ ] Buat API client service (Axios) (estimated: 1 hour)
-- [ ] Buat TanStack Query hooks (estimated: 2 hours)
-- [ ] Buat komponen UI utama (estimated: 4 hours)
-- [ ] Buat form dengan React Hook Form + Zod (estimated: 2 hours)
-- [ ] Integrasi state management (Zustand jika perlu) (estimated: 1 hour)
+- [ ] Setup API client (Axios) & Auth Interceptors (JWT + Refresh Token) (estimated: 1.5 hours)
+- [ ] Buat TanStack Query hooks untuk sinkronisasi server state (estimated: 2 hours)
+- [ ] Implementasi offline persistence/cache (IndexedDB) jika diperlukan (estimated: 1.5 hours)
+- [ ] Import/Buat reusable UI components (shadcn/ui + Tailwind CSS) (estimated: 1 hour)
+- [ ] Integrasi client state management (Zustand / Context API) (estimated: 1 hour)
+- [ ] Buat komponen UI halaman utama (estimated: 4 hours)
+- [ ] Integrasi form logic (React Hook Form + Zod) (estimated: 2 hours)
 
 ## Phase 6: Database
 
@@ -68,7 +71,8 @@
 
 - [ ] Unit tests — Domain layer (estimated: 2 hours)
 - [ ] Unit tests — Application layer (Handlers) (estimated: 3 hours)
-- [ ] Unit tests — Frontend components (estimated: 2 hours)
+- [ ] Unit tests — Frontend components (Vitest + RTL) (estimated: 2 hours)
+- [ ] E2E tests — Frontend fitur kritis (Playwright) (estimated: 2 hours)
 - [ ] Integration tests — API endpoints (estimated: 3 hours)
 - [ ] Verify coverage targets terpenuhi (estimated: 0.5 hour)
 

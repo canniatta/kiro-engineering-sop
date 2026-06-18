@@ -809,7 +809,7 @@ Response (401 Unauthorized):
 | DC-018 | RabbitMQ | 3.12+ | Message queuing |
 | DC-019 | Serilog | Latest | Structured logging |
 | DC-020 | xUnit | Latest | Unit testing (.NET) |
-| DC-021 | Jest + RTL | Latest | Unit testing (React) |
+| DC-021 | Vitest + RTL | Latest | Unit testing (React) |
 
 #### 3.4.3 Coding Standards
 | Area | Standard | Reference |

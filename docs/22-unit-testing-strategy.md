@@ -42,7 +42,7 @@ graph TB
 
 | Tipe Test | Jumlah | Kecepatan | Scope | Tools |
 |---|---|---|---|---|
-| **Unit Tests** | Banyak (hundreds) | Sangat cepat (ms) | Single class/method | xUnit, Jest |
+| **Unit Tests** | Banyak (hundreds) | Sangat cepat (ms) | Single class/method | xUnit, Vitest |
 | **Integration Tests** | Sedang (tens) | Cepat (seconds) | Multiple components | TestContainers, MSW |
 | **E2E Tests** | Sedikit (tens) | Lambat (seconds-minutes) | Full system flow | Playwright |
 
@@ -986,60 +986,52 @@ public class OrdersApiTests
 
 ## ReactJS Testing
 
-### Jest Configuration
+### Vitest Configuration
 
-```javascript
-// jest.config.ts
-import type { Config } from 'jest';
+```typescript
+// vitest.config.ts
+import { defineConfig } from 'vitest/config';
+import react from '@vitejs/plugin-react';
+import path from 'path';
 
-const config: Config = {
-  preset: 'ts-jest',
-  testEnvironment: 'jsdom',
-  roots: ['<rootDir>/src'],
-  
-  // Module resolution
-  moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/src/$1',
-    '\\.(css|less|scss)$': 'identity-obj-proxy',
-    '\\.(jpg|jpeg|png|gif|svg)$': '<rootDir>/src/__mocks__/fileMock.ts',
-  },
-  
-  // Setup files
-  setupFilesAfterSetup: ['<rootDir>/src/setupTests.ts'],
-  
-  // Coverage configuration
-  collectCoverageFrom: [
-    'src/**/*.{ts,tsx}',
-    '!src/**/*.d.ts',
-    '!src/**/*.stories.{ts,tsx}',
-    '!src/**/index.ts',
-    '!src/main.tsx',
-    '!src/vite-env.d.ts',
-  ],
-  coverageThreshold: {
-    global: {
-      branches: 75,
-      functions: 80,
-      lines: 80,
-      statements: 80,
+export default defineConfig({
+  plugins: [react()],
+  test: {
+    environment: 'jsdom',
+    globals: true,
+    setupFiles: ['./src/setupTests.ts'],
+    include: ['src/**/*.{test,spec}.{ts,tsx}'],
+    coverage: {
+      provider: 'v8',
+      reporter: ['text', 'json', 'html'],
+      exclude: [
+        'src/**/*.d.ts',
+        'src/**/*.stories.{ts,tsx}',
+        'src/**/index.ts',
+        'src/main.tsx',
+        'src/vite-env.d.ts',
+      ],
+      thresholds: {
+        branches: 75,
+        functions: 80,
+        lines: 80,
+        statements: 80,
+      },
     },
   },
-  
-  // Transform
-  transform: {
-    '^.+\\.tsx?$': ['ts-jest', {
-      tsconfig: 'tsconfig.json',
-    }],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'),
+    },
   },
-};
-
-export default config;
+});
 ```
 
 ```typescript
 // setupTests.ts
 import '@testing-library/jest-dom';
 import { server } from './mocks/server';
+import { vi } from 'vitest';
 
 // MSW setup
 beforeAll(() => server.listen({ onUnhandledRequest: 'error' }));
@@ -1113,7 +1105,7 @@ describe('OrderCard', () => {
   });
 
   it('shows cancel button for pending orders', () => {
-    const onCancel = jest.fn();
+    const onCancel = vi.fn();
     render(<OrderCard order={mockOrder} onCancel={onCancel} />);
 
     expect(screen.getByTestId('cancel-btn')).toBeInTheDocument();
@@ -1121,14 +1113,14 @@ describe('OrderCard', () => {
 
   it('hides cancel button for non-pending orders', () => {
     const completedOrder = { ...mockOrder, status: 'Completed' as const };
-    render(<OrderCard order={completedOrder} onCancel={jest.fn()} />);
+    render(<OrderCard order={completedOrder} onCancel={vi.fn()} />);
 
     expect(screen.queryByTestId('cancel-btn')).not.toBeInTheDocument();
   });
 
   it('calls onCancel when cancel button clicked', async () => {
     const user = userEvent.setup();
-    const onCancel = jest.fn();
+    const onCancel = vi.fn();
     render(<OrderCard order={mockOrder} onCancel={onCancel} />);
 
     await user.click(screen.getByTestId('cancel-btn'));
@@ -1139,7 +1131,7 @@ describe('OrderCard', () => {
 
   it('shows reorder button for completed orders', () => {
     const completedOrder = { ...mockOrder, status: 'Completed' as const };
-    render(<OrderCard order={completedOrder} onReorder={jest.fn()} />);
+    render(<OrderCard order={completedOrder} onReorder={vi.fn()} />);
 
     expect(screen.getByTestId('reorder-btn')).toBeInTheDocument();
   });
@@ -1313,7 +1305,7 @@ import userEvent from '@testing-library/user-event';
 import { CreateOrderForm } from './CreateOrderForm';
 
 describe('CreateOrderForm', () => {
-  const mockOnSubmit = jest.fn();
+  const mockOnSubmit = vi.fn();
 
   beforeEach(() => {
     mockOnSubmit.mockClear();
@@ -1790,7 +1782,7 @@ After tests, provide:
 - **Bogus** — Fake data generator
 - **TestContainers** — Dockerized integration test dependencies
 - **Stryker.NET** — Mutation testing for .NET
-- **Jest** — JavaScript test framework
+- **Vitest** — Vite-native test framework
 - **React Testing Library** — React component testing
 - **MSW** — API mocking for frontend tests
 - **Playwright** — E2E testing framework
