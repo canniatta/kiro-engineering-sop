@@ -35,7 +35,7 @@
 graph TD
     Client[ReactJS Frontend] -->|REST API| API[ .NET 8 Web API Gateways]
     API -->|Read/Write| DB[(SQL Server)]
-    API -->|Publish Events| MB[Azure Service Bus]
+    API -->|Publish Events| MB[Apache Kafka]
     MB -->|Consume Events| Worker[.NET Background Worker]
 ```
 

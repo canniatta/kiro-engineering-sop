@@ -89,10 +89,10 @@ Chosen option: **[Option X]**, karena [alasan utama yang mendukung].
 * **Context:** Database SQL Server mengalami load tinggi akibat query berulang pada data master yang statis.
 * **Decision:** Gunakan Redis cache untuk menyimpan hasil query katalog produk dan data setup sistem.
 
-### ADR-0007: Azure Service Bus untuk Event-Driven Communication
+### ADR-0007: Apache Kafka untuk Event-Driven Communication
 * **Status:** Accepted
-* **Context:** Mengirim email konfirmasi dan push notification secara synchronous memperlambat response time API.
-* **Decision:** Integrasikan Azure Service Bus untuk mengirim event secara asynchronous yang diproses oleh background service terpisah.
+* **Context:** Komunikasi sinkronus antar microservices menyebabkan eratnya ketergantungan (tight coupling) dan memperlambat response time API. Kami membutuhkan event streaming platform dengan throughput tinggi dan skalabilitas horizontal yang mumpuni.
+* **Decision:** Integrasikan Apache Kafka sebagai event broker terdistribusi untuk mempublikasikan dan berlangganan event secara asinkronus menggunakan pola produser dan konsumen background service.
 
 ### ADR-0008: Logging Framework Menggunakan Serilog & OpenTelemetry
 * **Status:** Accepted
