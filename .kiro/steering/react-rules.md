@@ -109,6 +109,18 @@ flowchart TD
 - Error messages dalam bahasa yang configurable
 - Disable submit button saat submitting
 
+## Offline Storage & API Integration
+
+- Gunakan **IndexedDB** dengan library `idb` untuk penyimpanan data offline skala besar dan berstruktur.
+- Hindari duplikasi data server state (dari TanStack Query) ke dalam IndexedDB secara manual kecuali untuk keperluan offline sync khusus.
+- Konfigurasikan instance Axios tunggal (`apiClient`) untuk komunikasi API dan gunakan request/response interceptors untuk menangani silent JWT refresh token.
+
+## Testing Standards
+
+- Gunakan **Vitest** dan **React Testing Library** (RTL) untuk menulis unit test dan integration test pada level komponen.
+- Gunakan **Playwright** untuk melakukan E2E testing pada alur pengguna utama (seperti *checkout*, *authentication*, *critical forms*).
+- Ikuti AAA pattern (*Arrange, Act, Assert*) dan gunakan mock data yang konsisten (menggunakan MSW jika memungkinkan).
+
 ## Performance
 
 | Target | Nilai |

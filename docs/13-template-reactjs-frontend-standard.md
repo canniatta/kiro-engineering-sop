@@ -987,6 +987,58 @@ export const useNotificationStore = create<NotificationState>((set) => ({
 
   clearAll: () => set({ notifications: [] }),
 }));
+
+// ---- Slices Pattern Example ----
+// Menggunakan Slices Pattern untuk mengelompokkan store yang besar
+interface UserSlice {
+  username: string;
+  setUsername: (name: string) => void;
+}
+
+interface SettingsSlice {
+  theme: 'light' | 'dark';
+  setTheme: (theme: 'light' | 'dark') => void;
+}
+
+// Menggabungkan beberapa slice dalam satu store
+export const useAppStore = create<UserSlice & SettingsSlice>((set) => ({
+  username: '',
+  theme: 'light',
+  setUsername: (name) => set({ username: name }),
+  setTheme: (theme) => set({ theme }),
+}));
+
+// ---- Auth Store (JWT & Refresh Token) Boilerplate ----
+// stores/auth.store.ts
+interface AuthState {
+  accessToken: string | null;
+  refreshToken: string | null;
+  isAuthenticated: boolean;
+  setTokens: (accessToken: string, refreshToken: string) => void;
+  logout: () => void;
+}
+
+export const useAuthStore = create<AuthState>()(
+  persist(
+    (set) => ({
+      accessToken: null,
+      refreshToken: null,
+      isAuthenticated: false,
+      setTokens: (accessToken, refreshToken) =>
+        set({ accessToken, refreshToken, isAuthenticated: true }),
+      logout: () =>
+        set({ accessToken: null, refreshToken: null, isAuthenticated: false }),
+    }),
+    {
+      name: 'auth-storage',
+      partialize: (state) => ({
+        accessToken: state.accessToken,
+        refreshToken: state.refreshToken,
+        isAuthenticated: state.isAuthenticated,
+      }),
+    }
+  )
+);
 ```
 
 ### 4.4 Local State — useState & useReducer
@@ -1069,6 +1121,79 @@ export function useProductFilters() {
     setPageSize: (pageSize: number) => dispatch({ type: 'SET_PAGE_SIZE', payload: pageSize }),
     resetFilters: () => dispatch({ type: 'RESET' }),
   };
+}
+```
+
+### 4.5 Offline Storage — IndexedDB (idb)
+
+Untuk penyimpanan offline skala besar dan terstruktur, gunakan **IndexedDB** dengan bantuan library `idb` (wrapper Promise-based). Hindari menggunakan `localStorage` untuk data bisnis besar karena `localStorage` bersifat synchronous dan memblokir thread utama.
+
+```typescript
+// lib/db.ts
+import { openDB, type DBSchema, type IDBPDatabase } from 'idb';
+
+interface AppDB extends DBSchema {
+  products: {
+    key: string;
+    value: {
+      id: string;
+      name: string;
+      price: number;
+      stock: number;
+      updatedAt: string;
+    };
+    indexes: { 'by-price': number };
+  };
+}
+
+let dbPromise: Promise<IDBPDatabase<AppDB>> | null = null;
+
+export function getDB() {
+  if (!dbPromise) {
+    dbPromise = openDB<AppDB>('app-local-db', 1, {
+      upgrade(db) {
+        const productStore = db.createObjectStore('products', {
+          keyPath: 'id',
+        });
+        productStore.createIndex('by-price', 'price');
+      },
+    });
+  }
+  return dbPromise;
+}
+
+// React Custom Hook untuk integrasi IndexedDB
+import { useState, useEffect } from 'react';
+
+export function useLocalProducts() {
+  const [products, setProducts] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function loadData() {
+      const db = await getDB();
+      const allProducts = await db.getAll('products');
+      setProducts(allProducts);
+      setLoading(false);
+    }
+    loadData();
+  }, []);
+
+  const saveProduct = async (product: any) => {
+    const db = await getDB();
+    await db.put('products', product);
+    setProducts((prev) => {
+      const index = prev.findIndex((p) => p.id === product.id);
+      if (index > -1) {
+        const next = [...prev];
+        next[index] = product;
+        return next;
+      }
+      return [...prev, product];
+    });
+  };
+
+  return { products, loading, saveProduct };
 }
 ```
 
@@ -2313,6 +2438,84 @@ export function createQueryWrapper() {
     );
   };
 }
+```
+
+### 9.4 E2E Testing — Playwright
+
+Gunakan **Playwright** untuk pengujian End-to-End (E2E) untuk memastikan alur kerja utama aplikasi (seperti login, penambahan produk, checkout) berfungsi dengan baik dari ujung ke ujung.
+
+#### Setup Konfigurasi
+```typescript
+// playwright.config.ts
+import { defineConfig, devices } from '@playwright/test';
+
+export default defineConfig({
+  testDir: './tests/E2E',
+  fullyParallel: true,
+  forbidOnly: !!process.env.CI,
+  retries: process.env.CI ? 2 : 0,
+  workers: process.env.CI ? 1 : undefined,
+  reporter: 'html',
+  use: {
+    baseURL: 'http://localhost:5173',
+    trace: 'on-first-retry',
+    screenshot: 'only-on-failure',
+  },
+  projects: [
+    {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'firefox',
+      use: { ...devices['Desktop Firefox'] },
+    },
+  ],
+});
+```
+
+#### Contoh Page Object Model (POM) & Test Case
+```typescript
+// tests/E2E/pages/LoginPage.ts
+import { type Page, type Locator } from '@playwright/test';
+
+export class LoginPage {
+  private readonly usernameInput: Locator;
+  private readonly passwordInput: Locator;
+  private readonly submitButton: Locator;
+
+  constructor(private readonly page: Page) {
+    this.usernameInput = page.locator('input[name="username"]');
+    this.passwordInput = page.locator('input[name="password"]');
+    this.submitButton = page.locator('button[type="submit"]');
+  }
+
+  async goto() {
+    await this.page.goto('/auth/login');
+  }
+
+  async login(user: string, pass: string) {
+    await this.usernameInput.fill(user);
+    await this.passwordInput.fill(pass);
+    await this.submitButton.click();
+  }
+}
+
+// tests/E2E/auth.spec.ts
+import { test, expect } from '@playwright/test';
+import { LoginPage } from './pages/LoginPage';
+
+test.describe('Authentication Flow', () => {
+  test('User sukses login dengan kredensial yang valid', async ({ page }) => {
+    const loginPage = new LoginPage(page);
+    await loginPage.goto();
+    await loginPage.login('admin', 'SecretPassword123');
+
+    // Pastikan diarahkan ke dashboard
+    await expect(page).toHaveURL('/dashboard');
+    await expect(page.locator('h1')).toContainText('Dashboard');
+  });
+});
 ```
 
 ---

@@ -51,7 +51,7 @@ Panduan arsitektur dan standardisasi kode C# (.NET 8):
 
 ### 4. Frontend & User Interface (ReactJS)
 Panduan standar pengembangan client-side application:
-* ⚛️ **[docs/13-template-reactjs-frontend-standard.md](./docs/13-template-reactjs-frontend-standard.md)**: Struktur kode ReactJS (Vite, Zustand state management, TanStack Query, styling menggunakan shadcn/ui & Tailwind CSS, dan form validation).
+* ⚛️ **[docs/13-template-reactjs-frontend-standard.md](./docs/13-template-reactjs-frontend-standard.md)**: Struktur kode ReactJS (Vite, Zustand, TanStack Query, styling menggunakan shadcn/ui & Tailwind CSS, form validation, local storage IndexedDB, serta testing dengan Vitest & Playwright).
 * ⚙️ **[.kiro/steering/react-rules.md](./.kiro/steering/react-rules.md)**: Aturan kemudi Kiro untuk standardisasi React components, custom hooks, dan render optimization.
 
 ### 5. Logging & Observability
@@ -81,7 +81,7 @@ Berkas contoh format dokumen untuk kebutuhan spesifikasi sistem:
 Metodologi pengukuran kesuksesan dan pengelolaan kualitas jangka panjang:
 * 📉 **[docs/20-technical-debt-management.md](./docs/20-technical-debt-management.md)**: Framework pencatatan debt backlog, skoring severity, dan strategi cicilan hutang teknis.
 * 📖 **[docs/21-knowledge-base-strategy.md](./docs/21-knowledge-base-strategy.md)**: Manajemen strategi Docs-As-Code, pemodelan sistem C4 Model, dan eliminasi risiko knowledge silos.
-* 🧪 **[docs/22-unit-testing-strategy.md](./docs/22-unit-testing-strategy.md)**: Kebijakan cakupan automated tests backend (xUnit) dan frontend (Jest/React Testing Library).
+* 🧪 **[docs/22-unit-testing-strategy.md](./docs/22-unit-testing-strategy.md)**: Kebijakan cakupan automated tests backend (xUnit) dan frontend (Vitest/React Testing Library).
 * 🚀 **[docs/23-release-readiness-checklists.md](./docs/23-release-readiness-checklists.md)**: Checklists gerbang rilis produksi.
 * ⚙️ **[docs/24-refactoring-legacy-systems.md](./docs/24-refactoring-legacy-systems.md)**: Playbook migrasi sistem monolitik warisan / legacy code.
 * 📊 **[docs/25-roi-measurement-kpi.md](./docs/25-roi-measurement-kpi.md)**: Implementasi DORA metrics (Deployment Frequency, Lead Time for Changes, MTTR, CFR) untuk efisiensi bisnis.

@@ -63,7 +63,7 @@ Berikut adalah daftar lengkap semua dokumen dalam SOP ini, beserta deskripsi dan
 | # | Dokumen | Deskripsi | Target Pembaca |
 |---|---------|-----------|----------------|
 | 12 | **[Template Clean Architecture .NET 8](./12-template-clean-architecture-dotnet8.md)** | Boilerplate code C# lengkap (Domain, Application, Infra, Web API) | Developer, Lead |
-| 13 | **[Template ReactJS Frontend Standard](./13-template-reactjs-frontend-standard.md)** | Boilerplate ReactJS (Vite, Zustand, TanStack Query, styling shadcn/ui & Tailwind, Zod validation) | Developer, Lead |
+| 13 | **[Template ReactJS Frontend Standard](./13-template-reactjs-frontend-standard.md)** | Boilerplate ReactJS (Vite, Zustand, TanStack Query, styling shadcn/ui & Tailwind, Zod validation, IndexedDB local storage, serta testing Vitest & Playwright) | Developer, Lead |
 | 14 | **[Spec-Driven Development Playbook](./14-spec-driven-development.md)** | Metodologi coding berbasis OpenAPI specification bersama Kiro | Developer, Lead |
 
 ### Alur Kerja & Operasional (Workflows & Playbooks)
