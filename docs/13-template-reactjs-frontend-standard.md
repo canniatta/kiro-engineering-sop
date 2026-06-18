@@ -679,6 +679,32 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
 export { ErrorBoundary };
 ```
 
+### 3.6 Standardisasi Component Library (shadcn/ui)
+
+Pola UI kita menggunakan **shadcn/ui** sebagai standar pustaka komponen. Berbeda dari UI library tradisional, shadcn/ui mendistribusikan kode komponen langsung ke dalam struktur folder lokal proyek kita di `src/components/ui/`.
+
+#### 3.6.1 Prinsip Kerja & Cara Menambahkan Komponen
+1. **Instalasi**: Menambahkan komponen baru dilakukan menggunakan CLI ke folder atomic `components/ui/`:
+   ```bash
+   npx shadcn-ui@latest add [nama-komponen]
+   ```
+2. **Kustomisasi**: Karena kode komponen ada di dalam folder lokal kita, tim diperbolehkan untuk memodifikasi struktur JSX atau menambahkan props baru sesuai dengan kebutuhan branding atau bisnis perusahaan.
+3. **Pola Penggabungan Kelas Tailwind (`cn`)**: Selalu gunakan fungsi pembantu `cn` (class name merger) untuk menggabungkan class bawaan shadcn dengan class kustom dari luar:
+   ```tsx
+   import { cn } from "@/utils/cn";
+
+   export interface MyComponentProps extends React.HTMLAttributes<HTMLDivElement> {}
+
+   export function MyComponent({ className, ...props }: MyComponentProps) {
+     return (
+       <div className={cn("rounded-lg border bg-card p-4 text-card-foreground shadow-sm", className)} {...props} />
+     );
+   }
+   ```
+
+#### 3.6.2 Aturan Aksesibilitas (Radix Primitives)
+Jangan menghapus pembungkus (*wrapper*) atau atribut ARIA dari Radix UI primitives di dalam komponen shadcn/ui. Primitive tersebut menjamin keyboard navigation, focus management, dan aksesibilitas screen reader bekerja secara *out-of-the-box*.
+
 ---
 
 ## 4. State Management

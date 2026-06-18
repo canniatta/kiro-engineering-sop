@@ -203,6 +203,19 @@ Dokumen ini berisi kumpulan prompt Kiro siap pakai yang dirancang khusus untuk m
   6. Call an Axios API client instance that includes Authorization headers.
   ```
 
+### Prompt 3.3: Creating Reusable UI Components with shadcn/ui and Tailwind
+* **Kapan digunakan:** Membuat komponen antarmuka pengguna baru berbasis shadcn/ui dan Tailwind CSS di Kiro IDE.
+* **Prompt Text:**
+  ```text
+  Create a reusable React component using TypeScript and shadcn/ui styling conventions for [Component Name] (e.g., Dialog, Accordion, or Combobox).
+  Ensure:
+  1. Use Radix UI primitives as underlying components imported from `@/components/ui/` namespace.
+  2. Define visual variants (like sizes, colors) using `class-variance-authority` (cva) utility.
+  3. Merge custom className overrides cleanly using our `cn` utility from `@/utils/cn`.
+  4. Enforce strict TypeScript types for component props (no 'any' type).
+  5. Ensure strict accessibility compliance (aria-attributes, keyboard navigation).
+  ```
+
 ---
 
 ## 4. SQL Server Database Prompts
