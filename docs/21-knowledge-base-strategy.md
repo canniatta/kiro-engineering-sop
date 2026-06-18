@@ -460,14 +460,14 @@ graph TB
         API["Web API<br/>(.NET 8)"]
         DB["SQL Server<br/>(Azure SQL)"]
         Cache["Redis Cache"]
-        Queue["Message Queue<br/>(Azure Service Bus)"]
+        Queue["Message Broker<br/>(Apache Kafka)"]
         Worker["Background Worker<br/>(.NET 8)"]
         Blob["Blob Storage<br/>(Azure)"]
         
         SPA -->|"HTTPS/JSON"| API
         API -->|"EF Core"| DB
         API -->|"StackExchange.Redis"| Cache
-        API -->|"Azure.Messaging"| Queue
+        API -->|"Confluent.Kafka"| Queue
         Queue --> Worker
         Worker --> DB
         API -->|"Azure.Storage.Blobs"| Blob
