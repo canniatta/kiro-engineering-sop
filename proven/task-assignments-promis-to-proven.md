@@ -1,7 +1,10 @@
 # 📝 Daftar Penugasan & Catatan Use Case: Promis To Proven
 
-> **Proyek:** Promis To Proven (Management PRO, Management Suder, & Selected Provider)  
-> **Tanggal Pembuatan:** 18 Juni 2026  
+> **Dokumen:** Daftar Penugasan & Catatan Use Case: Promis To Proven  
+> **Versi:** 2.0.0  
+> **Terakhir Diperbarui:** 18 Juni 2026  
+> **Target Pembaca:** Developer, Tech Lead  
+> **Stack:** .NET 8 · ReactJS · SQL Server  
 > **Status:** 🟡 Draft / Active  
 > **Dokumen Terkait:** [SOP Master Index](../docs/00-master-index.md)
 
@@ -9,7 +12,8 @@
 
 ## 👥 Ringkasan Distribusi Penugasan (Use Case Matrix)
 
-Berikut adalah pembagian peran dan tanggung jawab antara Back-End (BE) dan Front-End (FE) untuk masing-masing Use Case (UC), dilengkapi dengan status, prioritas, dan target timeline.
+Berikut adalah pembagian peran dan tanggung jawab antara Back-End (BE) dan Front-End (FE) untuk masing-masing
+Use Case (UC), dilengkapi dengan status, prioritas, dan target timeline.
 
 ### 1. Modul: Management PRO & Management Suder
 
@@ -19,11 +23,11 @@ Berikut adalah pembagian peran dan tanggung jawab antara Back-End (BE) dan Front
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **UC1** | Semua UC1 | 👤 Nopal | P1 | *[Isi Tanggal/Sprint]* | 🟡 Sedang Dikerjakan | - |
 | **UC2** | Semua UC2 | 👤 Lee | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
-| **UC3** | Semua UC3 | 👤 Nopal | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | Penyesuaian input nomor kontrak & daftar dokumen ([Lihat detail catatan](#catatan-uc3)) |
+| **UC3** | Semua UC3 | 👤 Nopal | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | Penyesuaian input kontrak & dokumen ([Detail](#catatan-uc3)) |
 | **UC5** | Semua UC5 | 👤 Lee | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
 | **UC6** | Semua UC6 | 👤 Nopal | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
 | **UC7** | Semua UC7 | 👤 Lee | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
-| **UC8** | Semua UC8 | 👤 Lee | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | Penyederhanaan tab poli > 10 ([Lihat detail catatan](#catatan-uc8)) |
+| **UC8** | Semua UC8 | 👤 Lee | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | Penyederhanaan tab poli > 10 ([Detail](#catatan-uc8)) |
 | **UC9** | Semua UC9 | 👤 Nopal | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
 | **UC10** | Semua UC10 | 👤 Lee | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
 | **UC14** | Semua UC14 | 👤 Nopal | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
@@ -34,11 +38,11 @@ Berikut adalah pembagian peran dan tanggung jawab antara Back-End (BE) dan Front
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **UC1** | Semua UC1 | 👤 Raihan | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
 | **UC2** | Semua UC2 | 👤 Raihan | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
-| **UC3** | Semua UC3 | 👤 Raihan | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | Penyesuaian input nomor kontrak & daftar dokumen ([Lihat detail catatan](#catatan-uc3)) |
+| **UC3** | Semua UC3 | 👤 Raihan | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | Penyesuaian input kontrak & dokumen ([Detail](#catatan-uc3)) |
 | **UC5** | Semua UC5 | 👤 Raihan | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
 | **UC6** | Semua UC6 | 👤 Raihan | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
 | **UC7** | Semua UC7 | 👤 Raihan | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
-| **UC8** | Semua UC8 | 👤 Raihan | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | Penyederhanaan tab poli > 10 ([Lihat detail catatan](#catatan-uc8)) |
+| **UC8** | Semua UC8 | 👤 Raihan | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | Penyederhanaan tab poli > 10 ([Detail](#catatan-uc8)) |
 | **UC9** | Semua UC9 | 👤 Raihan | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
 | **UC10** | Semua UC10 | 👤 Raihan | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
 | **UC14** | Semua UC14 | 👤 Raihan | P1 | *[Isi Tanggal/Sprint]* | 🔴 Belum Mulai | - |
@@ -62,22 +66,27 @@ Berikut adalah pembagian peran dan tanggung jawab antara Back-End (BE) dan Front
 
 > [!NOTE]
 > **Catatan Pengembangan UC3 (Management PRO & Suder - BE: Nopal)**
-> 1. **Nomor Kontrak:** Inputan section nomor kontrak untuk sementara dihilangkan terlebih dahulu, hingga proses *generate* perjanjian kerja sama (PKS) sudah berhasil dibuat secara dinamis oleh sistem.
-> 2. **Daftar Dokumen:** Tampilan daftar dokumen perlu disesuaikan (*adjustment*) kembali, karena dokumen yang akan ditampilkan berjumlah kurang lebih 15 dokumen.
+> 1. **Nomor Kontrak:** Inputan section nomor kontrak dihilangkan sementara hingga proses *generate* perjanjian kerja
+>    sama (PKS) berhasil dibuat secara dinamis oleh sistem.
+> 2. **Daftar Dokumen:** Tampilan daftar dokumen perlu disesuaikan kembali karena dokumen yang akan ditampilkan
+>    berjumlah kurang lebih 15 dokumen.
 
 <div id="catatan-uc8"></div>
 
 > [!IMPORTANT]
 > **Catatan Pengembangan UC8 (Management PRO & Suder - BE: Lee / FE: Raihan)**
-> * **Masalah UX (Tab Poli):** Jika jumlah poli melebihi 10, tampilan tab poli menjadi terlalu banyak dan kurang optimal dari sisi *user experience* (UX).
+> * **Masalah UX (Tab Poli):** Jika jumlah poli melebihi 10, tampilan tab poli menjadi terlalu banyak dan kurang
+>   optimal dari sisi *user experience* (UX).
 > * **Solusi/Mitigasi:** Struktur tab perlu disederhanakan (*simplify*) dan disesuaikan (*adjust*) kembali.
-> * **Tindakan Lanjut:** Tim akan melakukan diskusi kolaboratif antara **Raihan, Lee, dan Dika** untuk menentukan solusi desain terbaik.
+> * **Tindakan Lanjut:** Tim akan melakukan diskusi kolaboratif antara **Raihan, Lee, dan Dika** untuk menentukan
+>   solusi desain terbaik.
 
 ---
 
 ## 🏁 Checklist Progress Implementasi
 
-Gunakan checklist di bawah ini untuk melacak perkembangan pengerjaan masing-masing tim developer sesuai SOP pengerjaan proyek.
+Gunakan checklist di bawah ini untuk melacak perkembangan pengerjaan masing-masing tim developer sesuai SOP
+pengerjaan proyek.
 
 ### 💻 Back-End (BE) Tasks
 
