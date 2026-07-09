@@ -1,0 +1,906 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Tulis section Pendahuluan dokumen": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100221
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411215259
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411769209
+      }
+    ],
+    "2.1 Tulis Q-FUND-001: Value Type vs Reference Type": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100343
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411216123
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411769673
+      }
+    ],
+    "2.2 Tulis Q-FUND-002: Boxing dan Unboxing": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100375
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411217288
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411770512
+      }
+    ],
+    "2.3 Tulis Q-FUND-003: Generics dan Constraints": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100405
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411217897
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411771223
+      }
+    ],
+    "2.4 Tulis Q-FUND-004: Delegates dan Events": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100429
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411218745
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411798342
+      }
+    ],
+    "2.5 Tulis Q-FUND-005: Async/Await dan Deadlock": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100454
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413158986
+      }
+    ],
+    "2.6 Tulis Q-FUND-006: Task vs ValueTask": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100477
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413159449
+      }
+    ],
+    "2.7 Tulis Q-FUND-007: LINQ Deferred Execution": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100511
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413161453
+      }
+    ],
+    "2.8 Tulis Q-FUND-008: LINQ Performance dan Optimization": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100556
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413166865
+      }
+    ],
+    "2.9 Tulis Q-FUND-009: Extension Methods": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100582
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413171177
+      }
+    ],
+    "2.10 Tulis Q-FUND-010: Reflection dan Attributes": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100609
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413219495
+      }
+    ],
+    "2.11 Tulis Q-FUND-011: Garbage Collection di .NET": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100634
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413220629
+      }
+    ],
+    "2.12 Tulis Q-FUND-012: IDisposable dan Using Statement": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100656
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413221346
+      }
+    ],
+    "2.13 Tulis Q-FUND-013: Memory Management Best Practices": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100678
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413222150
+      }
+    ],
+    "2.14 Tulis Q-FUND-014: Thread Safety dan Synchronization": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100703
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413222926
+      }
+    ],
+    "2.15 Tulis Q-FUND-015: CancellationToken dan Cooperative Cancellation": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100725
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413244901
+      }
+    ],
+    "2.16 Tulis Q-FUND-016: Record Types dan Pattern Matching": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100755
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413244266
+      }
+    ],
+    "2.17 Tulis Q-FUND-017: Nullable Reference Types": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100782
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413243451
+      }
+    ],
+    "2.18 Tulis Q-FUND-018: Source Generators": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100838
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413242486
+      }
+    ],
+    "3.1 Tulis Q-ARCH-001: SOLID Principles Overview": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100862
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783414769569
+      }
+    ],
+    "3.2 Tulis Q-ARCH-002: Dependency Injection Deep Dive": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100888
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783414770425
+      }
+    ],
+    "3.3 Tulis Q-ARCH-003: Captive Dependency": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100921
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783414771085
+      }
+    ],
+    "3.4 Tulis Q-ARCH-004: Repository Pattern": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100945
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783414771951
+      }
+    ],
+    "3.5 Tulis Q-ARCH-005: CQRS Pattern": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100970
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783414773065
+      }
+    ],
+    "3.6 Tulis Q-ARCH-006: MediatR dan Mediator Pattern": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411100992
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783414800869
+      }
+    ],
+    "3.7 Tulis Q-ARCH-007: Clean Architecture Layers": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101018
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783414798771
+      }
+    ],
+    "3.8 Tulis Q-ARCH-008: Domain-Driven Design Concepts": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101046
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783414799463
+      }
+    ],
+    "3.9 Tulis Q-ARCH-009: Strategy Pattern": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101084
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783414800407
+      }
+    ],
+    "3.10 Tulis Q-ARCH-010: Factory Pattern": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101105
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783414797745
+      }
+    ],
+    "3.11 Tulis Q-ARCH-011: Decorator Pattern": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101128
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783414833135
+      }
+    ],
+    "3.12 Tulis Q-ARCH-012: Adapter dan Facade Pattern": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101153
+      },
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783414832490
+      }
+    ],
+    "4.1 Tulis Q-DATA-001: DbContext Lifecycle Management": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101176
+      }
+    ],
+    "4.2 Tulis Q-DATA-002: Change Tracking di EF Core": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101198
+      }
+    ],
+    "4.3 Tulis Q-DATA-003: Eager vs Lazy vs Explicit Loading": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101228
+      }
+    ],
+    "4.4 Tulis Q-DATA-004: N+1 Query Problem": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101249
+      }
+    ],
+    "4.5 Tulis Q-DATA-005: EF Core Migrations Strategy": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101274
+      }
+    ],
+    "4.6 Tulis Q-DATA-006: Transaction Management": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101298
+      }
+    ],
+    "4.7 Tulis Q-DATA-007: Raw SQL dan FromSqlRaw": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101324
+      }
+    ],
+    "4.8 Tulis Q-DATA-008: Complex Query dan Projection": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101347
+      }
+    ],
+    "4.9 Tulis Q-DATA-009: Concurrency Control": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101371
+      }
+    ],
+    "4.10 Tulis Q-DATA-010: Index Strategy di EF Core": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101392
+      }
+    ],
+    "4.11 Tulis Q-DATA-011: Bulk Operations dan Performance": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101419
+      }
+    ],
+    "4.12 Tulis Q-DATA-012: Database Connection Resilience": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101442
+      }
+    ],
+    "5.1 Tulis Q-API-001: RESTful API Design Principles": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101465
+      }
+    ],
+    "5.2 Tulis Q-API-002: HTTP Status Codes Usage": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101491
+      }
+    ],
+    "5.3 Tulis Q-API-003: API Versioning Strategies": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101515
+      }
+    ],
+    "5.4 Tulis Q-API-004: Input Validation dengan FluentValidation": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101545
+      }
+    ],
+    "5.5 Tulis Q-API-005: Authentication dan Authorization di API": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101569
+      }
+    ],
+    "5.6 Tulis Q-API-006: Rate Limiting dan Throttling": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101591
+      }
+    ],
+    "5.7 Tulis Q-API-007: API Documentation dengan OpenAPI/Swagger": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101618
+      }
+    ],
+    "5.8 Tulis Q-API-008: Error Handling dan Problem Details": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101639
+      }
+    ],
+    "5.9 Tulis Q-API-009: Pagination, Filtering, dan Sorting": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101660
+      }
+    ],
+    "6.1 Tulis Q-PERF-001: Caching Strategies": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101682
+      }
+    ],
+    "6.2 Tulis Q-PERF-002: Async Optimization": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101706
+      }
+    ],
+    "6.3 Tulis Q-PERF-003: Memory Profiling dan Diagnostics": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101751
+      }
+    ],
+    "6.4 Tulis Q-PERF-004: BenchmarkDotNet Usage": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101775
+      }
+    ],
+    "6.5 Tulis Q-PERF-005: Garbage Collection Tuning": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101803
+      }
+    ],
+    "6.6 Tulis Q-PERF-006: Object Pooling dan ArrayPool": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101826
+      }
+    ],
+    "6.7 Tulis Q-PERF-007: High-Performance Scenarios dengan Span<T>": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101848
+      }
+    ],
+    "6.8 Tulis Q-PERF-008: API Response Optimization": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101871
+      }
+    ],
+    "6.9 Tulis Q-PERF-009: Application Startup Performance": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101903
+      }
+    ],
+    "7.1 Tulis Q-TEST-001: Unit Testing Best Practices": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101932
+      }
+    ],
+    "7.2 Tulis Q-TEST-002: Mocking dengan NSubstitute": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101956
+      }
+    ],
+    "7.3 Tulis Q-TEST-003: FluentAssertions untuk Readable Tests": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411101981
+      }
+    ],
+    "7.4 Tulis Q-TEST-004: Test-Driven Development (TDD)": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102004
+      }
+    ],
+    "7.5 Tulis Q-TEST-005: Integration Testing dengan WebApplicationFactory": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102028
+      }
+    ],
+    "7.6 Tulis Q-TEST-006: Test Coverage dan Quality Metrics": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102049
+      }
+    ],
+    "7.7 Tulis Q-TEST-007: Testing Async Code": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102072
+      }
+    ],
+    "7.8 Tulis Q-TEST-008: Test Data Builders dan Fixtures": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102098
+      }
+    ],
+    "7.9 Tulis Q-TEST-009: Code Quality dan Static Analysis": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102121
+      }
+    ],
+    "8.1 Tulis Q-SEC-001: OWASP Top 10 untuk .NET": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102149
+      }
+    ],
+    "8.2 Tulis Q-SEC-002: SQL Injection Prevention": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102171
+      }
+    ],
+    "8.3 Tulis Q-SEC-003: JWT Security Best Practices": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102194
+      }
+    ],
+    "8.4 Tulis Q-SEC-004: Authentication vs Authorization": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102215
+      }
+    ],
+    "8.5 Tulis Q-SEC-005: Secure Configuration Management": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102238
+      }
+    ],
+    "8.6 Tulis Q-SEC-006: HTTPS dan Certificate Management": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102260
+      }
+    ],
+    "8.7 Tulis Q-SEC-007: Input Validation dan Sanitization": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102287
+      }
+    ],
+    "9.1 Tulis Q-DEVOPS-001: Docker Containerization untuk .NET": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102312
+      }
+    ],
+    "9.2 Tulis Q-DEVOPS-002: CI/CD Pipeline dengan GitHub Actions/Azure DevOps": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102373
+      }
+    ],
+    "9.3 Tulis Q-DEVOPS-003: Configuration Management": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102430
+      }
+    ],
+    "9.4 Tulis Q-DEVOPS-004: Logging dengan Serilog": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102455
+      }
+    ],
+    "9.5 Tulis Q-DEVOPS-005: Health Checks dan Monitoring": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102477
+      }
+    ],
+    "9.6 Tulis Q-DEVOPS-006: Blue-Green dan Canary Deployment": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102510
+      }
+    ],
+    "9.7 Tulis Q-DEVOPS-007: Container Orchestration Basics": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102535
+      }
+    ],
+    "10.1 Tulis Q-SOFT-001: Technical Decision Making": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102557
+      }
+    ],
+    "10.2 Tulis Q-SOFT-002: Mentoring dan Knowledge Sharing": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102580
+      }
+    ],
+    "10.3 Tulis Q-SOFT-003: Handling Technical Debt": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102603
+      }
+    ],
+    "10.4 Tulis Q-SOFT-004: Code Review Mindset": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102623
+      }
+    ],
+    "10.5 Tulis Q-SOFT-005: Conflict Resolution in Technical Decisions": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102648
+      }
+    ],
+    "10.6 Tulis Q-SOFT-006: Time Management dan Prioritization": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102670
+      }
+    ],
+    "11.1 Tulis Q-SCEN-001: Production Incident Response": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102691
+      }
+    ],
+    "11.2 Tulis Q-SCEN-002: Legacy Code Refactoring": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102714
+      }
+    ],
+    "11.3 Tulis Q-SCEN-003: Architecture Decision for New Feature": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102742
+      }
+    ],
+    "11.4 Tulis Q-SCEN-004: Performance Troubleshooting": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102764
+      }
+    ],
+    "11.5 Tulis Q-SCEN-005: Scaling Application Architecture": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102789
+      }
+    ],
+    "11.6 Tulis Q-SCEN-006: Building New Microservice": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102811
+      }
+    ],
+    "12. Checkpoint - Pastikan semua pertanyaan terformat konsisten": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102839
+      }
+    ],
+    "13. Tulis section Scoring Rubrik": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102864
+      }
+    ],
+    "14. Tulis section Tips untuk Interviewer": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102894
+      }
+    ],
+    "15. Tulis section Referensi": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102921
+      }
+    ],
+    "16. Update 00-master-index.md dengan entry dokumen baru": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783411102945
+      }
+    ],
+    "2. Tulis pertanyaan C# & .NET Fundamentals (18 pertanyaan)": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783413244932
+      }
+    ],
+    "3. Tulis pertanyaan Clean Architecture & Design Patterns (12 pertanyaan)": [
+      {
+        "executionId": "43461a7d-9aba-4d22-98c9-4635adf926f6",
+        "chatSessionId": "sess_2415061e-1515-4eec-8f68-3f0b3f4d7c5a",
+        "timestamp": 1783414833184
+      }
+    ]
+  }
+}
