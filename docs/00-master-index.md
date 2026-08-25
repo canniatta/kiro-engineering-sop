@@ -1,6 +1,6 @@
 # 🏗️ Kiro Engineering SOP - Complete Engineering Playbook
 
-> **Versi**: 2.0.0 | **Terakhir Diperbarui**: 17 Juni 2026 | **Maintainer**: Engineering Lead  
+> **Versi**: 2.1.0 | **Terakhir Diperbarui**: 25 Agustus 2026 | **Maintainer**: Engineering Lead  
 > **Tech Stack**: .NET 8 · ReactJS 18+ · SQL Server 2022 · Kiro AI
 
 ---
@@ -55,7 +55,7 @@ Berikut adalah daftar lengkap semua dokumen dalam SOP ini, beserta deskripsi dan
 | 08 | **[Template Code Review Checklist](./08-template-code-review-checklist.md)** | Checklist review kode C# (.NET 8) dan ReactJS | Developer, Tech Lead |
 | 09 | **[Template SQL Review Checklist](./09-template-sql-review-checklist.md)** | Checklist optimasi query, index, and stored procedure SQL Server | DBA, Dev Backend |
 | 10 | **[Template API Review Checklist](./10-template-api-review-checklist.md)** | Standard RESTful API design, input validation (FluentValidation) | Backend Dev, Lead |
-| 10a | **[API Performance Review Checklist](./10a-api-performance-review-checklist.md)** | Deteksi bottleneck API (N+1 query, DbContext, async, LINQ, memory, serialization) | Backend Dev, Lead |
+| 10a | **[API Performance Review Checklist](./10a-api-performance-review-checklist.md)** | Deteksi bottleneck API (N+1 query, DbContext, async, LINQ, memory, serialization) + budget & ambang performa | Backend Dev, Lead |
 | 11 | **[Template Logging & Observability](./11-template-logging-observability.md)** | Standar Serilog, Correlation ID tracing, & OpenTelemetry integration | DevOps, Lead |
 
 ### Panduan Arsitektur & Standard Coding (Architecture & Coding Standards)
@@ -300,7 +300,7 @@ PATCH = Perbaikan kecil (typo, klarifikasi, update minor)
 | Versi | Tanggal | Perubahan | Author |
 |-------|---------|-----------|--------|
 | 2.0.0 | 2026-06-17 | Initial release — 4 dokumen inti | Engineering Lead |
-| — | — | — | — |
+| 2.1.0 | 2026-08-25 | Dokumen 10a: tambah section 7 (Budget & Ambang Performa — metrik P-01 s/d P-06 beserta severity) dan section 8 (Panduan Implementasi Streaming & Export Besar) | Engineering Lead |
 
 ### Update Schedule
 
@@ -559,4 +559,4 @@ flowchart LR
 
 *Dibuat dengan ❤️ oleh Engineering Team — Powered by Kiro AI*
 
-*Terakhir diperbarui: 17 Juni 2026 | Versi: 2.0.0*
+*Terakhir diperbarui: 25 Agustus 2026 | Versi: 2.1.0*
