@@ -9,8 +9,10 @@ fileMatchPattern: "**/*Controller*.cs"
 > **Source of Truth**
 >
 > - API Review Checklist: #[[file:docs/10-template-api-review-checklist.md]]
-> - API Performance Review Checklist: #[[file:docs/10a-api-performance-review-checklist.md]]
 > - Rules 3, 10, 12, 21: #[[file:docs/02-kiro-setup-and-configuration.md]] (section "Rules")
+>
+> Aturan performance dan memory budget **tidak diulang di sini**. Keduanya ada di `dotnet-rules.md`
+> yang menyala untuk semua file `.cs`, termasuk controller.
 
 ## URL Conventions
 
@@ -141,3 +143,17 @@ public sealed class OrdersController : ControllerBase
 | `[ProducesResponseType]` | Dokumentasi Swagger untuk setiap kemungkinan response |
 | `sealed` | Controller tidak di-inherit — prefer composition |
 | Route template | `api/v{version:apiVersion}/[controller]` — konsisten untuk semua controllers |
+
+## Performance di Level Controller
+
+Tiga hal berikut adalah tanggung jawab controller. Sisanya (N+1, EF Core query rules, memory budget) diatur di `dotnet-rules.md`.
+
+| Aturan | Penjelasan | Severity |
+|---|---|---|
+| Pagination pada endpoint list | Terima `page` dan `pageSize` via `[FromQuery]`, batas maksimal 100 item | Major |
+| `CancellationToken` dipropagasi | Request yang dibatalkan client tidak boleh terus membebani database | Major |
+| Response besar | Payload > 10 MB tidak boleh `ToListAsync()` — pilih pagination, background job, atau batch keyset sesuai tabel keputusan di `dotnet-rules.md` | Major |
+| Concurrency limiter di endpoint export | Endpoint export wajib dibatasi jumlah request bersamaannya, bukan hanya rate limit per user | Major |
+
+> [!WARNING]
+> Endpoint list tanpa pagination adalah temuan `Major` dan memblokir merge. Tidak ada pengecualian untuk endpoint yang "datanya sedikit" — jumlah baris bertambah seiring waktu.

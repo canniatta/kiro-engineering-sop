@@ -11,6 +11,7 @@ fileMatchPattern: "**/*.cs"
 > - 25 Kiro Rules lengkap: #[[file:docs/02-kiro-setup-and-configuration.md]] (section "25 Recommended Kiro Rules")
 > - Clean Architecture template: #[[file:docs/12-template-clean-architecture-dotnet8.md]]
 > - Code review checklist .NET: #[[file:docs/08-template-code-review-checklist.md]] (section ".NET 8 Specific Checklist")
+> - Performance & memory budget: #[[file:docs/10a-api-performance-review-checklist.md]]
 
 ## Architecture Pattern
 
@@ -114,11 +115,64 @@ Semua entities inherit dari `BaseEntity` / `AuditableEntity`:
 
 ## Performance
 
-- API response target: < 200ms (p95)
-- Database query target: < 100ms (p95)
-- Pagination wajib untuk list endpoints (max 100 items)
-- `AsNoTracking()` untuk read-only queries
-- Response caching untuk data yang jarang berubah
+### Target Latency
+
+| Metrik | Target |
+|---|---|
+| API response | < 200ms (p95) |
+| Database query | < 100ms (p95) |
+
+### Enam Bottleneck yang Wajib Dihindari
+
+| # | Bottleneck | Aturan | Severity |
+|---|---|---|---|
+| 1 | N+1 query | Projection ke DTO di dalam `.Select()` — bukan loop `FindAsync` per baris | Major |
+| 2 | Multiple `SaveChanges` | Satu `SaveChangesAsync()` per use case, di akhir transaksi | Major |
+| 3 | Sync-over-async | Dilarang `.Result`, `.Wait()`, `.GetAwaiter().GetResult()` | Critical |
+| 4 | LINQ to Objects | Jangan `.ToList()` sebelum `.Where()` — filter harus terjadi di database | Major |
+| 5 | JSON serialization | `System.Text.Json` Source Generator untuk payload besar | Minor |
+| 6 | Alokasi memori | `StringBuilder` untuk konkatenasi dalam loop, hindari boxing | Minor |
+
+### EF Core Query Rules
+
+| Aturan | Alasan |
+|---|---|
+| `.AsNoTracking()` untuk read-only queries | Melewati change tracker |
+| `.AsSplitQuery()` saat multiple `Include` | Mencegah cartesian explosion |
+| `.Select()` ke DTO, jangan tarik entity utuh | Mengurangi data transfer |
+| `Any()` bukan `Count() > 0` untuk existence check | Berhenti di baris pertama |
+| `ExecuteUpdateAsync` / `ExecuteDeleteAsync` untuk bulk | Tanpa materialisasi entity ke memory |
+| `Take()` atau pagination wajib di setiap query list | Mencegah unbounded result set |
+
+### Memory Budget
+
+| # | Metrik | Ambang | Severity |
+|---|---|---|---|
+| P-01 | Working set (p95) | ≤ 70% dari container memory limit | Minor |
+| P-02 | Buffer / array ≥ 85 KB | Wajib `ArrayPool<T>` | Major |
+| P-03 | Percentage of time in GC | ≤ 5% | Minor |
+| P-04 | Gen 2 collection count | Tidak naik linear terhadap jumlah request | Minor |
+| P-05 | Payload atau file > 10 MB | Ikuti tabel keputusan — pagination, background job, atau batch keyset | Major |
+| P-06 | Result set query | Maksimal 100 item per page | Major |
+
+> [!IMPORTANT]
+> P-01 dan P-03 adalah baseline yang masih perlu dikalibrasi dengan data profiling — jangan dipakai menolak PR tanpa pengukuran. Penjelasan lengkap, dasar penetapan angka, dan contoh kode setiap metrik ada di #[[file:docs/10a-api-performance-review-checklist.md]] section 7.
+
+### Streaming & Export Besar
+
+`AsAsyncEnumerable()` polos **bukan** solusi payload besar — ia menurunkan memory tapi menahan koneksi database selama seluruh durasi response dan tetap memindai tabel penuh. Pilih sesuai volume:
+
+| Volume / Sifat | Pendekatan |
+|---|---|
+| ≤ 100 item | Pagination biasa |
+| Besar, tidak harus realtime | Background job + object storage + `202 Accepted` |
+| Besar, harus satu request | Batch keyset **dan** concurrency limiter |
+
+Implementasi lengkap — kode batch keyset, alur background job, isolasi connection pool, dan tradeoff-nya — ada di #[[file:docs/10a-api-performance-review-checklist.md]] section 8.
+
+### Caching
+
+Empat layer caching (Response, In-Memory, Distributed/Redis, Client) beserta format cache key dan aturan invalidation mengikuti Rule 22 di #[[file:docs/02-kiro-setup-and-configuration.md]]. Jangan cache authentication data, real-time data, dan PII.
 
 ## Yang Tidak Berlaku di Repo SOP Ini
 

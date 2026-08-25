@@ -11,6 +11,10 @@ fileMatchPattern: "*.sql"
 > - SQL Review Checklist: #[[file:docs/09-template-sql-review-checklist.md]]
 > - Performance Tuning Playbook: #[[file:docs/19-playbook-performance-tuning-sql.md]]
 > - Rule 11 (SQL): #[[file:docs/02-kiro-setup-and-configuration.md]] (section "Rules")
+>
+> Sebagian aturan di file ini perbaikannya justru di sisi C# — lihat catatan pada
+> [Implicit Conversion](#implicit-conversion) dan [Strategi Pagination](#strategi-pagination).
+> Aturan performance sisi .NET ada di `dotnet-rules.md`.
 
 ## SARGability Rules
 
@@ -39,6 +43,9 @@ modelBuilder.Entity<Order>().Property(o => o.OrderNumber)
     .HasColumnType("varchar(20)")
     .IsUnicode(false);
 ```
+
+> [!IMPORTANT]
+> Aturan ini ditegakkan di file `*Configuration.cs`, bukan di file `.sql`. Saat menulis EF Core entity configuration, setiap kolom `varchar` wajib disertai `.IsUnicode(false)` — tanpa itu, query yang tampak benar tetap memicu table scan.
 
 ## Strategi Indexing
 
@@ -129,6 +136,8 @@ ORDER BY CreatedAt DESC, Id DESC;
 ```
 
 Hasil: query response time konsisten < 50ms baik di halaman 2 maupun halaman 10,000.
+
+Padanan di EF Core: kirim cursor (`lastCreatedAt`, `lastId`) sebagai query parameter alih-alih nomor halaman, lalu terjemahkan ke `.Where()` dengan kondisi yang sama. Hindari `.Skip()` untuk offset besar. Batas 100 item per page mengikuti P-06 di `dotnet-rules.md`.
 
 ## Standar Stored Procedure
 
