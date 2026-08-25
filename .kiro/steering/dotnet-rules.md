@@ -156,7 +156,7 @@ Semua entities inherit dari `BaseEntity` / `AuditableEntity`:
 | P-06 | Result set query | Maksimal 100 item per page | Major |
 
 > [!IMPORTANT]
-> P-01 dan P-03 adalah baseline yang masih perlu dikalibrasi dengan data profiling — jangan dipakai menolak PR tanpa pengukuran. Penjelasan lengkap, dasar penetapan angka, dan contoh kode setiap metrik ada di #[[file:docs/10a-api-performance-review-checklist.md]] section 7.
+> P-02, P-05, dan P-06 berlaku sejak hari pertama — bisa diverifikasi langsung dari kode. P-01 dan P-03 adalah **nilai default**: project ini mengukur sendiri lalu mencatat angkanya sebagai ADR, dan selama belum diukur keduanya tidak dipakai menolak PR. Penjelasan lengkap, dasar penetapan angka, dan contoh kode setiap metrik ada di #[[file:docs/10a-api-performance-review-checklist.md]] section 7.
 
 ### Streaming & Export Besar
 

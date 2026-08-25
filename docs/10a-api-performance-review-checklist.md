@@ -197,6 +197,17 @@ Section 1 sampai 6 mengidentifikasi bottleneck berdasarkan pola kode. Sebagian k
 
 Definisi severity mengikuti [Code Review Checklist](./08-template-code-review-checklist.md) section 2.1. Temuan `Major` wajib diperbaiki sebelum merge.
 
+Dokumen ini adalah acuan dasar untuk banyak project, bukan konfigurasi satu sistem tertentu. Karena itu angka di tabel atas tidak semuanya bersifat sama:
+
+| Metrik | Sifat | Penjelasan |
+|---|---|---|
+| P-02 (85 KB) | Universal | Ambang Large Object Heap di runtime .NET — sama di semua project, tidak perlu disesuaikan |
+| P-05 (10 MB), P-06 (100 item) | Konvensi | Boleh berbeda kalau ada alasan teknis, tapi default ini aman untuk mayoritas kasus |
+| P-01 (70%), P-03 (5%) | Bergantung lingkungan | Angka yang tepat berbeda antara container 512Mi dan 4Gi, dan antara aplikasi CRUD dengan aplikasi yang memang alokasi-berat |
+
+> [!IMPORTANT]
+> P-01 dan P-03 adalah **nilai default yang dibawa project baru sebagai titik awal**, bukan angka yang menunggu diperbaiki di dokumen ini. Setiap project mengukur sendiri dengan `dotnet-counters` atau APM, lalu mencatat hasilnya sebagai ADR di repo project tersebut memakai [Template ADR](./07-template-adr.md). Selama pengukuran belum dilakukan, keduanya tidak boleh dipakai menolak PR.
+
 ### 7.2 Alasan Pembagian Severity
 
 Pembagiannya bukan berdasarkan tingkat bahaya, melainkan berdasarkan **apakah temuan bisa dibuktikan tanpa menjalankan aplikasi**.
@@ -206,8 +217,7 @@ Pembagiannya bukan berdasarkan tingkat bahaya, melainkan berdasarkan **apakah te
 | Major | P-02, P-05, P-06 | Terlihat langsung dari membaca kode — reviewer bisa menunjuk barisnya |
 | Minor | P-01, P-03, P-04 | Butuh profiling runtime — tidak adil dijadikan blocker tanpa data |
 
-> [!IMPORTANT]
-> P-01 dan P-03 adalah baseline awal, bukan angka final. Kalibrasi ulang setelah tim punya data profiling dari production. Jangan pakai keduanya untuk menolak PR selama belum ada pengukuran yang mendukung.
+Konsekuensinya: P-02, P-05, dan P-06 bisa ditegakkan sejak hari pertama sebuah project dibuat, sebelum ada satu pun metrik terkumpul. P-01, P-03, dan P-04 baru punya kekuatan setelah project memasang monitoring.
 
 ### 7.3 P-02 — Buffer di Atas Ambang LOH
 
